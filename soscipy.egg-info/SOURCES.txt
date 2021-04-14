@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+soscipy/__init__.py
+soscipy.egg-info/PKG-INFO
+soscipy.egg-info/SOURCES.txt
+soscipy.egg-info/dependency_links.txt
+soscipy.egg-info/top_level.txt
+soscipy/analyse/dat2csv.py
+soscipy/process/combine.py
+soscipy/process/rename_pd.py
+soscipy/process/xlwriter.py
+soscipy/utilities/progress_bar.py
+soscipy/visualise/plot.py
