@@ -1,6 +1,10 @@
+import os
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+
+os.environ['WDM_LOG_LEVEL'] = '0'
 
 
 class browser:
@@ -23,10 +27,3 @@ class browser:
 
     def close(self):
         self.driver.quit()
-
-    def fetch_landing_page(self):
-        self.driver.get(self.url)
-        print(f'Browsing: {self.url}')
-
-    def get_topic_links(self):
-        return [(x.get_attribute('href'), x.text) for x in self.driver.find_elements_by_class_name("subject")]

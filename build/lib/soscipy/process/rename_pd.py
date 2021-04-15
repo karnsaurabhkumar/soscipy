@@ -1,5 +1,4 @@
 def rename_pd(data, col_name, new_col_name):
-
     """
     Function to return renamed columns for a pandas dataframe
     :param data: Dataframe as input
@@ -10,7 +9,7 @@ def rename_pd(data, col_name, new_col_name):
     assert type(col_name) == list, 'Column names must be a list of strings'
     assert type(new_col_name) == list, 'New column names must be a list of strings'
     assert len(col_name) == len(new_col_name), 'Length of column names and new names must be equal'
-    assert all(elem in col_name for elem in data.columns)
+    assert all(elem in data.columns for elem in col_name)
     columns = {}
     for loc, col in enumerate(col_name):
         columns[col] = new_col_name[loc]

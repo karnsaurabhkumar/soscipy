@@ -6,9 +6,15 @@ soscipy.egg-info/PKG-INFO
 soscipy.egg-info/SOURCES.txt
 soscipy.egg-info/dependency_links.txt
 soscipy.egg-info/top_level.txt
+soscipy/analyse/__init__.py
 soscipy/analyse/dat2csv.py
-soscipy/process/combine.py
-soscipy/process/rename_pd.py
+soscipy/fetch/__init__.py
+soscipy/fetch/wb.py
+soscipy/process/__init__.py
+soscipy/process/dfops.py
 soscipy/process/xlwriter.py
+soscipy/utilities/__init__.py
+soscipy/utilities/br.py
 soscipy/utilities/progress_bar.py
+soscipy/visualise/__init__.py
 soscipy/visualise/plot.py

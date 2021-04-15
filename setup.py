@@ -10,7 +10,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='soscipy',
     packages=find_packages(),
-    version='0.0.7',
+    version='0.0.12',
     description='A python library to help do reproducible research in social sciences',
     author='Saurabh Karn',
     license='MIT',
