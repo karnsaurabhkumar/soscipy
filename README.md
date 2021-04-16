@@ -2,10 +2,11 @@
 This library attempts to solve some of the most basic challenges with data science pipelines and analysis. Some of the most repeated functions have been extracted while some other useful tools have been added.
 
 There are four different parts to the library that talks to specific needs while working with data.
-1. Data analysis
-2. Data processing
-3. Data visualisation
-4. Utilities
+1. Data fetching
+2. Data analysis
+3. Data processing
+4. Data visualisation
+5. Utilities
 
 
 ### 1. Data Analysis
