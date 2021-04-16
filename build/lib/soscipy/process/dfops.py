@@ -59,15 +59,14 @@ def get_primary_keys(df1, df2):
         return matrix_max_val_loc(candidates)
 
 
-def lookup(string, matches_df):
-    val = matches_df[matches_df['left_side'] == string]['right_side']
-    if len(val) > 0:
-        return val.values[0]
-    else:
-        return string
-
-
 def combine(df1, df2, outer=True):
+    """
+    Combines two dataframe after identifying its primary key
+    :param df1: Dataframe1
+    :param df2: Dataframe2
+    :param outer: bool, if set True will return outer join of the dataset
+    :return: a joint dataframe
+    """
     left_on, right_on = get_primary_keys(df1, df2)
     list1 = list(df1[df1.columns[left_on]])
     list2 = list(df2[df2.columns[right_on]])
@@ -79,8 +78,22 @@ def combine(df1, df2, outer=True):
         temp = pd.merge(df1, df2, left_on=df1.columns[left_on], right_on=df2.columns[right_on], how='outer')
     else:
         temp = pd.merge(df1, df2, left_on=df1.columns[left_on], right_on=df2.columns[right_on])
-    temp = temp.drop([df2.columns[right_on]], axis=1)
+        temp = temp.drop([df2.columns[right_on]], axis=1)
     return temp
+
+
+def lookup(string, matches_df):
+    """
+    Lookup function to identify the similar name from the matched list
+    :param string: Input string for the left side dataframe
+    :param matches_df: Matched string table
+    :return: output string
+    """
+    val = matches_df[matches_df['left_side'] == string]['right_side']
+    if len(val) > 0:
+        return val.values[0]
+    else:
+        return string
 
 
 class string_matcher():
