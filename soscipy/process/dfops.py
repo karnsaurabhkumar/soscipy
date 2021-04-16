@@ -17,8 +17,7 @@ class string_matcher():
     def __init__(self, list1, list2, top_n=10, similarity=0.8):
         self.list1 = list1
         self.list2 = list2
-        self.names = self.list1.append(self.list2)
-        self.names = self.names.values
+        self.names = self.list1 + self.list2
         self.top_n = top_n
         self.similarity = similarity
 
@@ -27,7 +26,7 @@ class string_matcher():
         ngrams = zip(*[string[i:] for i in range(n)])
         return [''.join(ngram) for ngram in ngrams]
 
-    def awesome_cossim_top(A, B, ntop, lower_bound=0):
+    def awesome_cossim_top(self,A, B, ntop, lower_bound=0):
         # force A and B as a CSR matrix.
         # If they have already been CSR, there is no overhead
         A = A.tocsr()
@@ -56,7 +55,7 @@ class string_matcher():
 
         return csr_matrix((data, indices, indptr), shape=(M, N))
 
-    def get_matches_df(sparse_matrix, name_vector, top=100):
+    def get_matches_df(self,sparse_matrix, name_vector, top=100):
         non_zeros = sparse_matrix.nonzero()
         sparserows = non_zeros[0]
         sparsecols = non_zeros[1]
@@ -80,10 +79,10 @@ class string_matcher():
                              'similairity': similairity})
 
     def get_matched_list(self):
-        vectorizer = TfidfVectorizer(min_df=1, analyzer=ngrams)
+        vectorizer = TfidfVectorizer(min_df=1, analyzer=self.ngrams)
         tf_idf_matrix = vectorizer.fit_transform(self.names)
-        matches = awesome_cossim_top(tf_idf_matrix, tf_idf_matrix.transpose(), self.top_n, self.similarity)
-        matches_df = get_matches_df(matches, self.names, top=len(names))
+        matches = self.awesome_cossim_top(tf_idf_matrix, tf_idf_matrix.transpose(), self.top_n, self.similarity)
+        matches_df = self.get_matches_df(matches, self.names, top=len(self.names))
         return matches_df
 
 def rename_pd(data, col_name, new_col_name):
