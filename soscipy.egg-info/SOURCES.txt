@@ -12,6 +12,7 @@ soscipy/fetch/__init__.py
 soscipy/fetch/wb.py
 soscipy/process/__init__.py
 soscipy/process/dfops.py
+soscipy/process/dictops.py
 soscipy/process/xlwriter.py
 soscipy/utilities/__init__.py
 soscipy/utilities/br.py
