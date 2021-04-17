@@ -25,11 +25,11 @@ or use following command inside Jupyter and Colab Notebooks <br>
 
 
 #### 2. Data processing
-**Combine** Takes two dataframes as input and exports a merged dataframe automatically. It figures out a primary key for the dataset and utilised TfIdf to match entities before merging
+**Combine** Takes two dataframes as an input and exports a merged dataframe automatically. It figures out a primary key for the dataset and utilised TfIdf to match entities before merging
 
 ```
-from socipy.process.rename_pd import rename_pd
-df = rename_pd(df,[col1,col2,col3],[new_col1,new_col2,new_col3])
+from socipy.process.dfops import combine
+df = combine(df1,df2)
 ```
 
 **Thin Panda:** A set of commonly used pandas functions such as renaming the columns etc.
@@ -47,7 +47,7 @@ df = rename_pd(df,[col1,col2,col3],[new_col1,new_col2,new_col3])
 from kornect.plot import sns_cntplt_array
 sns_cntplt_array([1,2,2,3,3,4],chart_title='Random chart',export=False) 
 ```
-![Count Plot Chart](examples/kornect_plot.png "Count Plot Output")
+![Count Plot Chart](static/kornect_plot.png "Count Plot Output")
 
 **istates:** Takes a dataframe with state names and values and plots a geomap of India for you as a PNG or GIF
 
@@ -56,14 +56,6 @@ sns_cntplt_array([1,2,2,3,3,4],chart_title='Random chart',export=False)
 ### 4. Utilities
 **Browser:** Creates a selenium browser for you
 **Update Progress:** This takes a float as an input and creates a beautiful progress bar and shows you the percentage. No added libraries just pure python implementation.
-```
-from kornect.utilities import update_progress
-import time
-
-for i in range(100):
-    update_progress(i/100.0)
-    time.sleep(0.01)
-```
 
 
 

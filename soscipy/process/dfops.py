@@ -81,7 +81,6 @@ def combine(df1, df2, outer=True):
         temp = temp.drop([df2.columns[right_on]], axis=1)
     return temp
 
-
 def lookup(string, matches_df):
     """
     Lookup function to identify the similar name from the matched list
