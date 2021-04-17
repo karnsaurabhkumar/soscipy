@@ -1,6 +1,7 @@
 ![Logo](static/logo.png)
 # Soscipy
-This library attempts to solve some of the most basic challenges with data science pipelines and analysis. Some of the most repeated functions have been extracted while some other useful tools have been added.
+Social Science is hard, analysing data to make inferences should not be!
+Project Soscipy is an attempt to enable social science researchers, economists, students, enthusiasts, data scientists and most importantly change makers do high quality data analysis and visualisation that works - easily.
 
 There are four different parts to the library that talks to specific needs while working with data.
 1. Data fetching
@@ -9,13 +10,21 @@ There are four different parts to the library that talks to specific needs while
 4. Data plot
 5. Utilities
 
+## Setup
+### With Pip
+Install soscipy using pip by entering following command in the terminal: <br>
+`pip install --upgrade soscipy`
 
-### 1. Data Analysis
+or use following command inside Jupyter and Colab Notebooks <br>
+`!pip install --upgrade soscipy`
+
+
+#### 1. Data Analysis
 **dat2csv:** A simple module to export data into a csv file
 
 
 
-### 2. Data processing
+#### 2. Data processing
 **Combine** Takes two dataframes as input and exports a merged dataframe automatically. It figures out a primary key for the dataset and utilised TfIdf to match entities before merging
 
 ```
