@@ -5,7 +5,7 @@ There are four different parts to the library that talks to specific needs while
 1. Data fetching
 2. Data analysis
 3. Data processing
-4. Data visualisation
+4. Data plot
 5. Utilities
 
 
