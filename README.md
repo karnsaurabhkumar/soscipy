@@ -1,5 +1,5 @@
-![Logo](static/logo.png)
-
+![Logo](static/logo.png) <br>
+![version](https://img.shields.io/badge/version-1.2.3-blue)
 ![Discord Shield](https://discord.gg/82bdR2pJ)
 # SoSciPy
 Social Science is hard, analysing data to make inferences should not be!
