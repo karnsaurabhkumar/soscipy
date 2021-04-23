@@ -1,7 +1,7 @@
 <p align="center">
   <img src="static/logo.png" 
-    width="60"
-    height="60"/>
+    width="120"
+    height="120"/>
 </p>
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
