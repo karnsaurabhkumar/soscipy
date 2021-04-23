@@ -6,10 +6,10 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-![version](https://img.shields.io/badge/version-0.0.18-blue)
+[![version](https://img.shields.io/badge/version-0.0.18-blue)](https://pypi.org/project/soscipy/)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/82bdR2pJ)
-![Maintaner](https://img.shields.io/badge/maintainer-Saurabh_Karn-blue)
+[![Maintaner](https://img.shields.io/badge/maintainer-Saurabh_Karn-blue)](https://twitter.com/SaurabhKarn16)
 
 <a href="https://twitter.com/intent/follow?screen_name=py_sci">
     <img src="https://img.shields.io/twitter/follow/py_sci?style=social&logo=twitter"
