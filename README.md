@@ -12,11 +12,11 @@
 [![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/82bdR2pJ)
 ![Maintaner](https://img.shields.io/badge/maintainer-Saurabh_Karn-blue)
 
-<p>
 <a href="https://twitter.com/intent/follow?screen_name=py_sci">
-        <img src="https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter"
-    alt="follow on Twitter"></a>
-</p>
+    <img src="https://img.shields.io/twitter/follow/py_sci?style=social&logo=twitter"
+    alt="follow on Twitter">
+</a>
+
 
 # SoSciPy
 Social Science is hard, analysing data to make inferences should not be!
