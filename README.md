@@ -1,5 +1,7 @@
 ![Logo](static/logo.png)
-# Soscipy
+
+![Discord Shield](https://discord.gg/82bdR2pJ)
+# SoSciPy
 Social Science is hard, analysing data to make inferences should not be!
 Project Soscipy is an attempt to enable social science researchers, economists, students, enthusiasts, data scientists and most importantly change makers do high quality data analysis and visualisation that works - easily.
 
