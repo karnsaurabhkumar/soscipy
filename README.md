@@ -1,12 +1,12 @@
 <p align="center">
   <img src="static/logo.png" />
-</p>
-
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 ![version](https://img.shields.io/badge/version-0.0.18-blue)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/82bdR2pJ)
+</p>
+
 # SoSciPy
 Social Science is hard, analysing data to make inferences should not be!
 Project Soscipy is an attempt to enable social science researchers, economists, students, enthusiasts, data scientists and most importantly change makers do high quality data analysis and visualisation that works - easily.
@@ -15,7 +15,7 @@ There are four different parts to the library that talks to specific needs while
 1. Data fetching
 2. Data analysis
 3. Data processing
-4. Data plot
+4. Data visualisation
 5. Utilities
 
 ## Setup
