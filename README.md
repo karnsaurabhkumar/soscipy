@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="static/logo.png" />
+</p>
+
 ![Logo](static/logo.png) <br>
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ![version](https://img.shields.io/badge/version-0.0.18-blue)
