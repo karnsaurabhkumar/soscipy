@@ -96,6 +96,26 @@ def lookup(string, matches_df):
         return string
 
 
+def rename_pd(data, col_name, new_col_name):
+    """
+    Function to return renamed columns for a pandas dataframe
+    :param data: Dataframe as input
+    :param col_name: List of column names that needs to be renamed
+    :param new_col_name:
+    :return:
+    """
+    assert type(col_name) == list, 'Column names must be a list of strings'
+    assert type(new_col_name) == list, 'New column names must be a list of strings'
+    assert len(col_name) == len(new_col_name), 'Length of column names and new names must be equal'
+    assert all(elem in data.columns for elem in col_name)
+    columns = {}
+    for loc, col in enumerate(col_name):
+        columns[col] = new_col_name[loc]
+    data = data.rename(columns=columns)
+    assert isinstance(data, object)
+    return data
+
+
 class string_matcher():
     def __init__(self, list1, list2, top_n=10, similarity=0.8):
         self.list1 = list1
@@ -168,21 +188,3 @@ class string_matcher():
         matches_df = self.get_matches_df(matches, self.names, top=len(self.names))
         return matches_df
 
-
-def rename_pd(data, col_name, new_col_name):
-    """
-    Function to return renamed columns for a pandas dataframe
-    :param data: Dataframe as input
-    :param col_name: List of column names that needs to be renamed
-    :param new_col_name:
-    :return:
-    """
-    assert type(col_name) == list, 'Column names must be a list of strings'
-    assert type(new_col_name) == list, 'New column names must be a list of strings'
-    assert len(col_name) == len(new_col_name), 'Length of column names and new names must be equal'
-    assert all(elem in data.columns for elem in col_name)
-    columns = {}
-    for loc, col in enumerate(col_name):
-        columns[col] = new_col_name[loc]
-    data = data.rename(columns=columns)
-    return data
