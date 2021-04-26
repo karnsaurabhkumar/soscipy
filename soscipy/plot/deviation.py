@@ -17,7 +17,6 @@ class diverge_graph:
 
     def __init__(self, df, labels, val, xlabel=None, ylabel=None, TITLE=None, figsize=(5, 10), dpi=80, tfont=20,
                  lfont=12, linewidth=10, cmap='RdYlGn'):
-        self.z_scores = __z_score__(self.values)
         self.labels = df[labels]
         if not xlabel:
             self.xlabel = labels
@@ -30,6 +29,7 @@ class diverge_graph:
             self.ylabel = ylabel
 
         self.values = df[val].values
+        self.z_scores = __z_score__(self.values)
         self.figsize = figsize
         self.plt = plt
         self.tfont = tfont
