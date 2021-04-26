@@ -188,5 +188,3 @@ class string_matcher():
         matches = self.awesome_cossim_top(tf_idf_matrix, tf_idf_matrix.transpose(), self.top_n, self.similarity)
         matches_df = self.get_matches_df(matches, self.names, top=len(self.names))
         return matches_df
-
-
