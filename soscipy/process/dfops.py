@@ -129,7 +129,7 @@ class string_matcher():
         ngrams = zip(*[string[i:] for i in range(n)])
         return [''.join(ngram) for ngram in ngrams]
 
-    def awesome_cossim_top(self, A, B, ntop, lower_bound=0):
+    def awesome_cossim_top(self, A, B, lower_bound=0):
         # force A and B as a CSR matrix.
         # If they have already been CSR, there is no overhead
         A = A.tocsr()
@@ -139,7 +139,7 @@ class string_matcher():
 
         idx_dtype = np.int32
 
-        nnz_max = M * ntop
+        nnz_max = M * self.top_n
 
         indptr = np.zeros(M + 1, dtype=idx_dtype)
         indices = np.zeros(nnz_max, dtype=idx_dtype)
