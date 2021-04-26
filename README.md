@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="static/logo.png" 
+  <img src="https://github.com/karnsaurabhkumar/soscipy/blob/master/static/logo.png" 
     width="120"
     height="120"/>
 </p>
