@@ -7,6 +7,9 @@ this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
+
 setup(
     name='soscipy',
     packages=find_packages(),
@@ -14,7 +17,7 @@ setup(
     description='A python library to help do reproducible research in social sciences',
     author='Saurabh Karn',
     license='MIT',
-    install_requires=[],
+    install_requires=required,
     setup_requires=['pytest-runner'],
     tests_require=['pytest==4.4.1'],
     test_suite='test',
