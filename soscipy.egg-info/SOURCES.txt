@@ -8,8 +8,14 @@ soscipy.egg-info/dependency_links.txt
 soscipy.egg-info/top_level.txt
 soscipy/analyse/__init__.py
 soscipy/analyse/dat2csv.py
+soscipy/fetch/ASER.py
+soscipy/fetch/HighCourt.py
+soscipy/fetch/MOSPI.py
+soscipy/fetch/NCRB.py
+soscipy/fetch/NFHS.py
+soscipy/fetch/Supremo.py
+soscipy/fetch/WorldBank.py
 soscipy/fetch/__init__.py
-soscipy/fetch/wb.py
 soscipy/plot/__init__.py
 soscipy/plot/changeovtime.py
 soscipy/plot/correlation.py

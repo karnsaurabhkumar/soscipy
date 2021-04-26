@@ -129,7 +129,7 @@ class string_matcher():
         ngrams = zip(*[string[i:] for i in range(n)])
         return [''.join(ngram) for ngram in ngrams]
 
-    def awesome_cossim_top(self, A, B, ntop, lower_bound=0):
+    def awesome_cossim_top(self, A, B, lower_bound=0):
         # force A and B as a CSR matrix.
         # If they have already been CSR, there is no overhead
         A = A.tocsr()
@@ -139,7 +139,7 @@ class string_matcher():
 
         idx_dtype = np.int32
 
-        nnz_max = M * ntop
+        nnz_max = M * self.top_n
 
         indptr = np.zeros(M + 1, dtype=idx_dtype)
         indices = np.zeros(nnz_max, dtype=idx_dtype)
@@ -182,9 +182,11 @@ class string_matcher():
                              'similairity': similairity})
 
     def get_matched_list(self):
+        # TODO: Add filter to remove exact matches
         vectorizer = TfidfVectorizer(min_df=1, analyzer=self.ngrams)
         tf_idf_matrix = vectorizer.fit_transform(self.names)
         matches = self.awesome_cossim_top(tf_idf_matrix, tf_idf_matrix.transpose(), self.top_n, self.similarity)
         matches_df = self.get_matches_df(matches, self.names, top=len(self.names))
         return matches_df
+
 

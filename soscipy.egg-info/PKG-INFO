@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: soscipy
-Version: 0.0.21
+Version: 0.0.23
 Summary: A python library to help do reproducible research in social sciences
 Home-page: UNKNOWN
 Author: Saurabh Karn
 License: MIT
 Description: <p align="center">
-          <img src="static/logo.png" 
+          <img src="https://github.com/karnsaurabhkumar/soscipy/blob/master/static/logo.png" 
             width="120"
             height="120"/>
         </p>
