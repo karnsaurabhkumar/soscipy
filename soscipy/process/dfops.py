@@ -182,9 +182,11 @@ class string_matcher():
                              'similairity': similairity})
 
     def get_matched_list(self):
+        # TODO: Add filter to remove exact matches
         vectorizer = TfidfVectorizer(min_df=1, analyzer=self.ngrams)
         tf_idf_matrix = vectorizer.fit_transform(self.names)
         matches = self.awesome_cossim_top(tf_idf_matrix, tf_idf_matrix.transpose(), self.top_n, self.similarity)
         matches_df = self.get_matches_df(matches, self.names, top=len(self.names))
         return matches_df
+
 
