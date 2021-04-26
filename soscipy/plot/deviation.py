@@ -41,7 +41,7 @@ class diverge_graph:
         else:
             self.chart_title = TITLE
 
-    def plot(self):
+    def diverge_plot(self):
         order = np.argsort(self.z_scores)
         self.z_scores.sort()
         self.values = [self.values[i] for i in order]
@@ -59,3 +59,11 @@ class diverge_graph:
         self.plt.title(self.chart_title, fontdict={'size': self.tfont, 'family': 'Tahoma'})
         self.plt.grid(linestyle='--', alpha=0.5)
         self.plt.show()
+
+    def diverge_stacked_plot(self):
+        """
+        TODO: Diverged stack bar plot
+        :return:
+        """
+        pass
+

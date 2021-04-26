@@ -1,0 +1,365 @@
+Name of Judge,Date of appointment to SC,Date of retirement from SC,Whether CJI of SC,"If yes, date of appointment as CJI",Date of Birth,State of Birth,Gender,Religion,Caste (Savarna/ OBC/SC/ST),Highest Degree Obtained from university,Year of Enrollment to Bar,Which State Bar was he enrolled in,Was Senior Advocate?,"If Yes, Year of appointment as Senior Advocate",Whether direct appointee to SC?,"If no, parent HC","Nature of Appointment to parent HC (1 = Permanent, 0=Addl, 3= DNA)",Date of appointment to such parent HC addln.,Whether made permanent at parent HC [Y/N],Date of appointment to such parent HC permanently,Appointment in any other HC as a judge?,Name of Such other  1,Name of Such other  2,Date of appointment to such  2,Whether CJ of a ? Y/N,"If Y, how many?",Date of appointment as Chief Justice of  (first such appointment).,Name of the HC where appointed as Chief Justice  (first such appointment).,Date of Second Appointment as CJ,Name of the HC where appointed as Chief Justice  (second such appointment).,Date of Third Appointment as CJ,Name of the HC where appointed as Chief Justice  (Third such appointment).,Whether a trial court judge,Whether a government lawyer (public prosecutor/ standing counsel for a state/ law officer),"If yes, what type",Area of Practice 1 (in order mentioned in profile),Area of Practice 2,Area of Practice 3,Area of Practice 4,Area of Practice 5,Area of Practice 6,Area of Practice 7,Area of Practice 8,Area of Practice 9
+Sharad Arvind Bobde,12-04-2013,23-04-2021,1,18-11-2019,24-04-1956,Maharashtra,0,NA,NA,Nagpur University,1978,Maharashtra,1,1998,0,Bombay,NA,NA,1,29-03-2000,1,Madhya Pradesh,NA,NA,1,1,16-10-2012,Madhya Pradesh,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+N.V. Ramana,17-02-2014,26-08-2022,0,NA,27-08-1957,Andhra Pradesh,0,NA,NA,NA,1983,Andhra Pradesh,0,NA,0,Andhra Pradesh,NA,NA,1,27-06-2000,1,Delhi,NA,NA,1,2,10-03-2013,Andhra Pradesh,02-09-2013,Delhi,NA,NA,0,1,NA,Civil,Criminal,Constitutional,Labour,Service,Election,Inter-state river laws,NA,NA
+R.F. Nariman,07-07-2014,12-08-2021,0,NA,13-08-1956,NA,0,NA,NA,"Faculty of Law, Delhi & Harvard",1979,NA,1,NA,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,NA,Maritime Law,Compartive,Civil,Constitutional Law,NA,NA,NA,NA,NA
+Uday Umesh Lalit,13-08-2014,08-11-2022,0,NA,09-11-1957,NA,0,NA,NA,NA,1983,NA,1,2004,1,NA,DNA,DNA,DNA,DNA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+A.M. Khanwilkar,13-05-2016,29-07-2022,0,NA,30-07-1957,Maharashtra,0,NA,NA,"K.C. Law College, Mumbai",1982,NA,0,NA,0,Bombay,NA,NA,1,29-03-2000,1,Himachal Pradesh,Madhya Pradesh,NA,1,2,04-04-2013,HImachal Pradesh,24-11-2013,Madhya Pradesh,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+D.Y. Chandrachud,13-05-2016,10-11-2024,0,NA,11-11-1959,NA,0,NA,NA,"Campus Law Centre, Delhi University",NA,NA,1,1998,0,Bombay,NA,NA,1,29-03-2000,NA,NA,NA,NA,1,1,31-10-2013,Allahabad,NA,NA,NA,NA,0,1,Solicitor General,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ashok Bhushan,13-05-2016,04-07-2021,0,NA,05-07-1956,Uttar Pradesh,0,NA,NA,Allahabad University,1979,Uttar Pradesh,NA,NA,0,Allahabad,NA,NA,1,24-04-2001,1,Kerala,NA,NA,1,2,01-08-2014,Kerala,#2015-03-26,Kerala,NA,NA,0,1,NA,Civil,NA,NA,NA,NA,NA,NA,NA,NA
+L. Nageswara Rao,13-05-2016,07-06-2022,0,NA,08-06-1957,Andhra Pradesh,0,NA,NA,"Nagarjuna University, Andhra Pradesh",1982,Andhra Pradesh,1,2000,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Additional Solicitor General,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sanjay Kishan Kaul,17-02-2017,25-12-2023,0,NA,26-12-1958,NA,0,NA,NA,"Campus Law Centre, Delhi University",1982,Delhi,1,1999,0,Delhi,0,03-05-2001,1,02-05-2003,0,NA,NA,NA,1,3,23-09-2012,Delhi,01-06-2013,Punjab and Haryana,"July 26, 2014",Madras,0,1,NA,Commercial,Civil,Writ,Original,Comany jurisdictions,NA,NA,NA,NA
+Mohan M. Shantanagoudar,17-02-2017,04-05-2023,0,NA,05-05-1958,NA,0,NA,NA,NA,1980,NA,0,NA,0,Karnataka,0,12-05-2003,1,24-09-2004,1,Kerala,NA,NA,1,1,01-08-2016,Kerala,NA,NA,NA,NA,0,1,State Public Prosecutor,Civil,Criminal,Constitutional matters(private),NA,NA,NA,NA,NA,NA
+Abdul Nazeer,17-02-2017,04-01-2023,0,NA,05-01-1958,NA,0,NA,NA,NA,1983,NA,NA,NA,0,Karnataka,0,12-05-2003,1,24-09-2004,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Navin Sinha,17-02-2017,18-08-2021,0,NA,19-08-1956,NA,0,NA,NA,Delhi University,1979#,Patna#,0,NA,0,Patna,NA,NA,1,11-02-2004,1,Chhattisgarh,Rajasthan,NA,1,1,14-05-2016,NA,14-05-2016,Rajasthan,NA,NA,0,1,NA,Civil,Constitutional,Labour,Service,Commercial,Company (Limited),Criminal Matters,NA,NA
+Indu Malhotra,27-04-2018,13-03-2021,0,NA,14-03-1956,Karnataka,1,NA,NA,Delhi University,1983,Delhi,1,2007,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Indira Banerjee,07-08-2018,23-09-2022,0,NA,24-09-1957,NA,1,NA,NA,"College of Law, Calcutta University",1985,NA,0,NA,0,Calcutta,NA,NA,1,05-02-2002,1,Delhi,NA,NA,1,1,05-04-2017,Madras,NA,NA,NA,NA,0,0,NA,Except criminal law,NA,NA,NA,NA,NA,NA,NA,NA
+Vineet Saran,07-08-2018,10-05-2022,0,NA,11-05-1957,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+K.M. Joseph,07-08-2018,16-06-2023,0,NA,17-06-1958,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Hemant Gupta,02-11-2018,04-01-2022,0,NA,17-10-1957,NA,0,NA,NA,NA,1980,NA,NA,NA,0,Punjab and Haryana,NA,NA,1,02-07-2002,1,Patna,NA,NA,1,2,29-10-2017,Patna,18-03-2017,Madhya Pradesh,NA,NA,0,1,Additional Advocate General (Punjab),Civil,NA,NA,NA,NA,NA,NA,NA,NA
+R. Subhash Reddy,02-11-2018,04-01-2022,0,NA,05-01-1957,Telangana,0,NA,NA,"Osmania University, Hyderabad",1980,Andhra Pradesh,NA,NA,0,Andhra Pradesh,0,02-12-2002,1,24-06-2004,NA,NA,NA,NA,1,1,12-02-2016,Gujarat,NA,NA,NA,NA,0,0,NA,Civil,Criminal,Constitutional,NA,NA,NA,NA,NA,NA
+Mukeshkumar Rasikbhai Shah,02-11-2018,15-05-2023,0,NA,16-05-1958,NA,0,NA,NA,NA,1982,NA,NA,NA,0,Gujarat,0,07-03-2004,1,22-06-2005,0,NA,NA,NA,1,1,12-08-2018,Patna,NA,NA,NA,NA,0,0,NA,Civil,Criminal,Constitutional,Taxation,Labour,Service,Company matters,Land,Excise &custom
+Ajay Rastogi,02-11-2018,17-06-2023,0,NA,18-06-1958,NA,0,NA,NA,NA,1982,NA,NA,NA,0,Rajasthan,NA,NA,1,19-07-2014,0,NA,NA,NA,1,2,14-04-2016,Rajasthan,01-03-2018,Tripura,NA,NA,0,0,NA,Constitutional,Service,NA,NA,NA,NA,NA,NA,NA
+Dinesh Maheshwari,18-01-2019,14-05-2023,0,NA,15-05-1958,Rajasthan,0,NA,NA,Jodhpur University,1981,Rajasthan,NA,NA,0,Rajasthan,NA,NA,1,02-09-2004,1,Allahabad,NA,NA,1,2,24-02-2016,Meghalaya,12-02-2018,Karnataka,NA,NA,0,0,NA,Civil,Constitutional,NA,NA,NA,NA,NA,NA,NA
+Sanjiv Khanna,18-01-2019,13-05-2025,0,NA,14-05-1960,NA,0,NA,NA,"Campus Law Centre, Delhi University",1983,Delhi,NA,NA,0,Delhi,0,24-06-2005,1,20-02-2006,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Additional Public Prosecutor,Writ,Taxation,Income tax prosecutions,Arbitration,Commercial suits,Environment and pollution law matters,Medical negligence cases,Criminal cases*,Cases for Income Tax Dept.
+Bhushan Ramakrishna Gavai,24-05-2019,23-11-2025,0,NA,24-11-1960,Maharashtra,0,NA,NA,NA,1985,NA,NA,NA,0,Bombay,0,14-11-2003,1,12-11-2005,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Government Pleader and Public Prosecutor,Constitutional,Administrative,NA,NA,NA,NA,NA,NA,NA
+Surya Kant,24-05-2019,09-02-2027,0,NA,10-02-1962,Haryana,0,NA,NA,"Maharishi Dayanand University, Rohtak",NA,NA,1,2001,0,Punjab and Haryana,NA,NA,1,09-01-2004,0,NA,NA,NA,1,1,05-10-2018,Himachal Pradesh,NA,NA,NA,NA,0,1,Advocate General,Constitutional,Service,Civil,NA,NA,NA,NA,NA,NA
+Aniruddha Bose,24-05-2019,10-04-2024,0,NA,11-04-1959,NA,0,NA,NA,"Surendranath Law College, Kolkata",1985,Calcutta,0,NA,0,Calcutta,NA,NA,1,01-01-2004,0,NA,NA,NA,1,1,11-08-2018,Jharkhand,NA,NA,NA,NA,0,0,NA,Constitutional,Civil,IPR,NA,NA,NA,NA,NA,NA
+Ajjikuttira Somaiah Bopanna,24-05-2019,19-05-2024,0,NA,20-05-1959,NA,0,NA,NA,NA,1984,NA,0,NA,0,Karnataka,0,06-01-2006,1,01-03-2007,0,NA,NA,NA,1,1,29-10-2018,Gauhati,NA,NA,NA,NA,0,1,Additional Central Government Standing Counsel,Civil,Constitutional,Company,Service,Labour,NA,NA,NA,NA
+Krishna Murari,23-09-2019,08-07-2023,0,NA,09-07-1958,NA,0,NA,NA,Allahabad University,1981,NA,0,NA,0,Allahabad,0,07-01-2004,1,18-08-2005,0,NA,NA,NA,1,1,02-06-2018,"Punjab and Haryana, Chandigarh",NA,NA,NA,NA,0,1,Standing Counsel of UP.....,Civil,Constitutional,Company,Service,Revenue,NA,NA,NA,NA
+Shripathi Ravindra Bhat,23-09-2019,20-10-2023,0,NA,21-10-1958,Karnataka,0,NA,NA,"Campus Law Centre, Faculty of Law, University of Delhi",1982,Delhi,0,NA,0,Delhi,0,16-07-2004,1,20-02-2006,0,NA,NA,NA,1,1,05-05-2019,Rajasthan,NA,NA,NA,NA,0,0,NA,Public,Employment,Education,Constitutional,NA,NA,NA,NA,NA
+V. Ramasubramanian,23-09-2019,29-06-2023,0,NA,30-06-1958,NA,0,NA,NA,Madras Law College,1983,NA,0,NA,0,Madras,0,31-07-2006,1,09-11-2009,1,Telangana,NA,NA,1,1,22-06-2019,Himachal Pradesh,NA,NA,NA,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Hrishikesh Roy,23-09-2019,31-01-2025,0,NA,01-02-1960,NA,0,NA,NA,"Campus Law Centre, University of Delhi",NA,NA,1,2004,0,Gauhati,0,12-10-2006,1,15-07-2008,NA,NA,NA,NA,1,1,08-08-2018,Kerala,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Harilal Jekisundas Kania
+",26-01-1950,06-11-1951,1,26-01-1950,03-11-1980,Gujarat,0,Hindu,NA,"Government Law College, Bombay",NA,Maharashtra,NA,NA,0,Bombay,0,01-06-1931,1,01-06-1933,NA,NA,NA,NA,1,1,1944-45*,Bombay,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Mundakulathur Patanjali Sastri
+",26-01-1950,03-01-1954,1,07-11-1951,1889/01/04,Tamil Nadu,0,Hindu,NA,Madras University,1914,Tamil Nadu,NA,NA,0,Madras,1,NA,1,15-03-1939,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Mehr Chand Mahajan,26-01-1950,22-12-1954,1,04-01-1954,1889/12/23,Himachal Pradesh,0,Hindu,NA,Punjab University,1913,Punjab,NA,NA,0,Lahore,1,NA,1,27-09-1943,1,East Punjab,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Constitutional Adviser to His Highness the Maharaja of Bikaner,Civil,Constitution,NA,NA,NA,NA,NA,NA,NA
+"Bijan Kumar Mukherjea
+",26-01-1950,31-01-1956,1,23-12-1954,1891/08/15,West Bengal,0,NA,NA,Calcutta University,1914,West Bengal,0,1936,0,Calcutta,0,09-11-1936,1,03-07-1939,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Senior Government Pleader,Publication Problems Law,NA,NA,NA,NA,NA,NA,NA,NA
+"Sudhi Ranjan Das
+",26-01-1950,30-09-1959,1,02-02-1956,1894/10/01,West Bengal,0,NA,NA,Calcutta University,1919,West Bengal,0,NA,0,Calcutta,0,01-12-1942,1,11-11-1944,1,Punjab,NA,NA,1,1,19-01-1949,Punjab,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Bhuvneshwar Prasad Sinha
+",03-12-1954,31-01-1964,1,01-10-1959,1899/02/01,Bihar,0,NA,NA,Patna University,1922,Bihar,NA,NA,0,Patna,0,06-01-1943,1,06-12-1943,1,Nagpur,NA,NA,1,1,24-02-1951,Nagpur,NA,NA,NA,NA,0,1,Assistant Government Advocate,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Pralhad Balacharya Gajendragadkar,17-01-1957,15-03-1966,1,01-02-1964,16-03-1901,Maharashtra,0,Hindu,Brahmin,"Law College, Poona",1926,Maharashtra,0,NA,0,Bombay,0,06-03-1945,1,01-03-1947,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Hindu Law,International Law,NA,NA,NA,NA,NA,NA,NA
+Amal Kumar Sarkar,04-03-1957,29-06-1966,1,16-03-1966,09-06-1901,West Bengal,0,NA,NA,Calcutta University,1930,West Bengal,0,NA,0,Calcutta,0,25-01-1949,1,23-01-1950,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Koka Subba Rao
+",31-01-1958,11-04-1967,1,30-06-1966,15-07-1902,Andhra Pradesh,0,NA,NA,"Law College, Madras",1926,Tamil Nadu,0,NA,0,Madras,1,NA,1,22-03-1948,1,Andhra Pradesh,NA,NA,1,1,05-07-1954,"Andhra  , Guntur",01-11-1956,Andhra Pradesh,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Kailas Nath Wanchoo
+",08-11-1958,24-02-1968,1,12-04-1967,25-02-1903,Madhya Pradesh,0,Hindu,Brahmin,Allahabad University; University of Oxford,NA [look up],NA,0,NA,0,Allahabad,0,01-02-1947,1,12-12-1947,1,Rajasthan,NA,NA,1,1,02-01-1951,Rajasthan,NA,NA,NA,NA,1,1,GoI counsel,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Mohammad  Hidayatullah
+",12-01-1958,16-12-1970,1,25-02-1968,17-12-1905,Chattisgarh,0,Islam,NA,"Trinity College, Cambridge",1930,Maharashtra,0,NA,0,Bombay,NA,NA,1,07-05-1905,1,Madhya Pradesh,NA,NA,1,2,07-05-1905,Nagpur,01-11-1956,Madhya Pradesh,NA,NA,0,1,Advocate-General,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Jayantilal Chhotalal Shah,10-12-1959,21-01-1971,1,17-12-1970,22-01-1906,Gujarat,0,Hindu,NA,"Elphinstone College, Bombay",Na,Maharashtra,0,NA,0,Bombay,NA,NA,1,[till October 1959],0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sarv Mittra Sikri,03-02-1964,25-04-1973,1,22-01-1971,26-04-1908,Punjab,0,Hindu,NA,NA,1930,Punjab,0,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,"Advocate-General, Punjab",International Law,Irrigation and Power,International Law,NA,NA,NA,NA,NA,NA
+"A.N. Ray
+",08-01-1969,28-01-1977,1,26-04-1973,29-01-1912,West Bengal,0,Hindu,NA,University of Oxford,1939,West Bengal,0,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Mirza Hameedullah Beg,12-10-1971,21-02-1978,1,29-01-1977,22-02-1913,Uttar Pradesh,0,NA,NA,Cambridge,1941,Uttar Pradesh,0,No,0,Allahabad,NA,NA,1,11-06-1963,1,Himachal Pradesh,NA,NA,1,1,01-01-1971,Himachal,NA,NA,NA,NA,0,1,Standing Counsel for U.P. Sunni Central Wakf Board [point of clarification: wether state],Criminal Law,Civil Law (Company),NA,NA,NA,NA,NA,NA,NA
+Yeshwant Vishnu Chandrachud,28-08-1972,11-07-1985,1,22-02-1978,12-06-1920,Maharashtra,0,Hindu,NA,University of Bombay,1943,Maharashtra,0,NA,0,Bombay,NA,NA,1,19-03-1961,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Assistant Government Pleader,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"P.N. Bhagwati
+",17-07-1973,20-12-1986,1,07-12-1985,21-12-1921,Maharashtra,0,Hindu,NA,"Government Law College, Bombay",NA,Maharashtra,0,NA,0,Bombay,NA,NA,1,21-07-1960,1,Gujarat,NA,NA,1,1,16-09-1967,Gujarat,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Raghunandan Swarup Pathak
+",20-02-1978,18-06-1989,1,21-12-1986,25-11-1924,Uttar Pradesh,0,Hindu,NA,Allahabad University,1948,Uttar Pradesh,0,NA,0,Allahabad,0,10-01-1962,1,NA,1,Himachal,NA,NA,1,1,18-03-1972,Himachal,NA,NA,NA,NA,0,0,NA,Constitutional Law,Income-tax,Sales Tax and other Taxation Laws,Civil Law,Company Law,Industrial Disputes,NA,NA,NA
+"Engalaguppe Seetharamiah Venkataramiah
+",03-08-1979,17-12-1989,1,19-06-1989,18-12-1924,Maharashtra,0,Hindu,NA,Bombay University,1948,Karnataka,0,N,0,Karnataka,0,25-06-1970,1,NA,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,"Special Government Pleader, Government Advocate, Government of Mysore; Advocate General, Mysore",Civil Laws,Criminal Laws,NA,NA,NA,NA,NA,NA,NA
+"Sabyasachi Mukherjee
+",15-03-1983,25-09-1990,1,18-12-1989,01-06-1927,West Bengal,0,Hindu,NA,Calcutta University,1949,Calcutta,0,NA,0,Calcutta,NA,NA,1,31-07-1968,NA,NA,NA,NA,1,1,1.3.1983*,Calcutta,NA,NA,NA,NA,0,0,NA,Civil Laws,Revenue,Constitutional,NA,NA,NA,NA,NA,NA
+Ranganath Misra,15-03-1983,24-11-1991,1,25-09-1990,25-11-1926,Uttar Pradesh,0,Hindu,NA,Allahabad University,1950,Orissa,0,NA,0,Orissa,NA,NA,1,04-07-1969,0,NA,NA,NA,1,1,"November 6, 1980*",Orissa,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Kamal Narain Singh,10-03-1986,12-12-1991,1,25-11-1991,13-12-1926,Uttar Pradesh,0,Hindu,NA,Allahabad University,1957,Uttar Pradesh,0,NA,0,Allahabad,0,25-08-1970,1,NA,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Standing Counsel and later Advoacte General for UP,Civil,Constitutional,Taxation,NA,NA,NA,NA,NA,NA
+"Madhukar Hiralal Kania
+",01-05-1987,17-11-1992,1,13-12-1991,18-11-1927,Maharashtra,0,Hindu,NA,Bombay University,NA,Maharashtra,0,NA,0,Bombay,0,11-04-1969,1,NA,0,NA,NA,NA,1,1,"October,1985*",Bombay,NA,NA,NA,NA,0,1,Government Pleader,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lalit Mohan Sharma
+",05-10-1987,02-11-1993,1,18-11-1992,12-02-1928,Bihar,0,Hindu,NA,Patna University,1950,Bihar,1,NA,0,Patna,NA,NA,1,12-04-1973,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"M.N. Venkatachaliah
+",05-10-1987,24-10-1994,1,02-12-1993,25-10-1929,Karnataka,0,NA,NA,University of Mysore,1951,Karnataka,0,NA,0,Karnataka,NA,NA,1,06-11-1975,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Aziz Mushabeer Ahmadi
+",14-12-1988,24-03-1997,1,25-10-1994,25-03-1932,Gujarat,0,NA,NA,NA,1954,Gujarat,0,NA,0,Gujarat,NA,NA,1,02-09-1976,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Jagdish Sharan Verma
+",03-06-1989,17-01-1998,1,25-03-1997,18-01-1933,Madhya Pradesh,0,NA,NA,University of Allahabad,1959,Madhya Pradesh,0,NA,0,Madhya Pradesh,0,09-12-1972,NA,NA,1,Rajasthan,NA,NA,1,2,27.10.1985*,Madhya Pradesh,1.9.1986,Rajasthan,NA,NA,0,0,NA,constitutional,civil,criminal,taxation,revenue,NA,NA,NA,NA
+Madan Mohan Punchhi,06-10-1989,10-09-1998,1,18-01-1998,10-10-1933,"Montgomery, Pakistan",0,NA,NA,Delhi University,1955,Punjab,0,NA,0,Punjab,0,24-10-1979,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Dr. Adarsh Sein Anand
+",18-11-1991,31-10-2001,1,10-10-1998,01-11-1936,Jammu and Kashmir,0,NA,NA,Lucknow University; London University,1964,Punjab,0,NA,0,Jammu and Kashmir,0,26-05-1975,NA,NA,1,Madras,NA,NA,1,2,26.5.1984*,Jammu and Kashmir,1.11.1989,Madras,NA,NA,0,0,NA,Constitutional Law of the Commonwealth,Labour Laws,NA,NA,NA,NA,NA,NA,NA
+"Sam Piroj Bharucha
+",01-07-1992,05-05-2002,1,11-01-2001,05-05-1937,Maharashtra,0,NA,NA,NA,1960,Maharsashtra,0,NA,0,Bombay,NA,NA,1,19-08-1977,1,Karnataka,NA,NA,1,1,01-11-1991,Karnataka,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Bhupinder Nath Kirpal
+",11-09-1995,11-07-2002,1,05-06-2002,11-08-1937,Delhi,0,NA,NA,NA,1962,Delhi,0,N,0,Delhi,0,20-11-1979,1,NA,1,Gujarat,NA,NA,1,1,14-12-1993,Gujarat,NA,NA,NA,NA,0,1,Central Government Standing Counsel,NA,Taxation,NA,NA,NA,NA,NA,NA,NA
+"Gopal Ballav Patnaik
+",11-09-1995,18-12-2002,1,11-08-2002,19-12-1937,Orissa,0,NA,NA,NA,1962,Orissa,0,N,0,Orissa,NA,NA,1,01-06-1983,1,Patna,NA,NA,1,1,19-05-1995,Patna,NA,NA,NA,NA,0,1,Government Advocate,Civil,Criminal,Constitutional,Company,NA,NA,NA,NA,NA
+"Visheshwar Nath Khare
+",21-03-1997,05-01-2004,1,19-12-2002,02-05-1939,Uttar Pradesh,0,NA,NA,NA,1961,Uttar Pradesh,0,NA,0,Allahabad,NA,NA,1,25-06-1983,1,Calcutta,NA,NA,1,1,02-02-1996,Calcutta,NA,NA,NA,NA,0,1,Chief Standing Counsel for UP State Government,Civil,Writ,Revenue,NA,NA,NA,NA,NA,NA
+"S. Rajendra Babu
+",25-09-1997,31-05-2004,1,05-02-2004,01-06-1939,Karnataka,0,NA,NA,NA,1969,Karnataka,0,NA,0,Karnataka,NA,NA,1,19-02-1988,0,NA,NA,NA,NA,N,NA,NA,NA,NA,NA,NA,0,1,Government Pleader for Government of Karnataka,Taxation,Constitutional,Civil,NA,NA,NA,NA,NA,NA
+"Ramesh Chandra Lahoti
+",09-12-1998,31-10-2005,1,06-01-2004,11-01-1940,Madhya Pradesh,0,NA,NA,NA,1962,Madhya Pradesh,0,NA,0,Madhya Pradesh,0,03-05-1988,1,NA,1,Delhi,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Y.K. Sabharwal
+",28-01-2000,13-01-2007,1,11-01-2005,14-01-1942,Delhi,0,NA,NA,NA,1964,Delhi,0,N,0,Delhi,0,17-11-1986,1,NA,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,International Law,Constitutional matters,Criminal Laws,Public Interest Litigation,Environmental Laws,NA,NA,NA,NA
+"Konakuppakatil Gopinathan Balakrishnan
+",08-06-2000,05-12-2010,1,14-01-2007,05-12-1945,Kerala,0,NA,NA,NA,1973,Kerala,0,NA,0,Kerala,NA,NA,1,26-09-1985,1,Gujarat,Madras,NA,1,1,09-09-1999,Madras,NA,NA,NA,NA,0,0,NA,Civil Laws,Criminal Laws,NA,NA,NA,NA,NA,NA,NA
+"S.H. Kapadia
+",18-12-2003,28-09-2012,1,05-12-2010,29-09-1947,Maharashtra,0,NA,NA,NA,1974,Maharashtra,0,NA,0,Bombay,0,08-10-1991,1,NA,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Letters Patent Appeals,Writs,matters under Negotiable Instruments Act,Detention Matters,matters under Bombay Rent Act,NA,NA,NA,NA
+"Altamas Kabir
+",09-09-2005,18-07-2013,1,29-09-2012,19-07-1948,West Bengal,0,NA,NA,NA,1973,West Bengal,0,NA,0,Calcutta,NA,NA,1,06-08-1990,1,Jharkhand,NA,NA,1,1,01-03-2005,Jharkhand,NA,NA,NA,NA,0,0,NA,NA,Civil,Criminal,NA,NA,NA,NA,NA,NA
+"P. Sathasivam
+",21-08-2007,26-04-2014,1,19-07-2013,27-04-1949,Tamil Nadu,0,NA,NA,NA,1973,Tamil Nadu,0,NA,0,Madras,NA,NA,1,08-01-1996,1,Punjab and Haryana,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Special Government Pleader,Writ,Civil,Criminal,Company,Insolvency petitions,Habeas Corpus,NA,NA,NA
+R. M. Lodha,17-12-2008,27-09-2014,1,27-04-2014,28-09-1949,Rajasthan,0,NA,NA,University of Jodhpur,1973,Rajasthan,0,NA,0,Rajasthan,NA,NA,1,31-01-1994,1,Bombay,Patna,NA,1,1,"13th May, 2008",Patna,NA,NA,NA,NA,0,1,Standing counsel for state and central government,Constitutional,Civil,Company,Criminal,Taxation,Labour,NA,NA,NA
+"H.L. Dattu
+",17-12-2008,12-02-2015,1,28-09-2014,03-12-1950,Karnataka,0,NA,NA,NA,1975,Karnataka,0,NA,0,Karnataka,NA,NA,1,18-12-1995,1,Chattisgarh,Kerala,NA,1,1,12.02.2007,Chattisgarh,NA,NA,NA,NA,0,1,Stadning Counsel,Civil,Criminal Laws,Constitutional,Taxation,NA,NA,NA,NA,NA
+"T.S. Thakur
+",17-11-2009,01-03-2017,1,12-03-2015,04-01-1952,NA,0,NA,NA,NA,NA,NA,1,1990,0,Jammu and Kashmir,0,16-02-1994,1,NA,1,of Karnataka,of Delhi,NA,1,2,09.04.2008*,Delhi,11-08-2008,Punjab and Haryana,NA,NA,0,0,NA,Civil,Criminal Laws,Constitutional,Taxation,Service matters,NA,NA,NA,NA
+"Jagdish Singh Khehar
+",01-04-2017,27-08-2017,1,01-04-2017,28-08-1952,Punjab,0,NA,NA,Panjab University,1979,Punjab and Haryana,1,1995,0,Punjab,NA,NA,1,08-02-1999,1,Uttarakhand,Karnataka,NA,1,3,"August 02, 2008*",Punjab and Haryana,29-11-2009,Uttarakhand,NA,NA,0,1,"Additional Advocate General, Punjab",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Dipak Misra
+",10-10-2011,10-02-2018,1,28-08-2017,03-10-1953,NA,0,NA,NA,NA,1977,Orissa,0,N,0,Orissa,0,17-01-1996,1,NA,1,Madhya Pradesh,Patna,NA,1,2,"23rd December, 2009",Patna,24-05-2010,Delhi,NA,NA,0,0,NA,Constitutional,Civil,Criminal,Revenue,Service and Sales Tax,NA,NA,NA,NA
+"Ranjan Gogoi
+",23-04-2012,17-11-2019,1,10-03-2018,18-11-1954,NA,0,NA,NA,NA,1978,Assam,NA,NA,0,Gauhati,NA,NA,1,28-02-2001,1,Punjab and Haryana,NA,NA,1,1,"12th February, 2011",Punjab and Haryana,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Saiyid Fazl Ali
+",26-01-1950,18-09-1951,0,NA,1886/09/19,Uttar Pradesh,0,Islam,NA,Allahabad University,1912,Bihar,0,NA,0,Patna,1,NA,1,01-04-1928,0,NA,NA,NA,1,1,1928*,Patna,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Nagapudi Chandrasekhara Aiyar
+",23-09-1950,24-01-1953,0,NA,1888/01/25,Tamil Nadu,0,Hindu,NA,Madras University,1910,Tamil Nadu,0,NA,0,Madras,NA,NA,1,01-07-1941,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1,0,NA,Civil,Industrial,Bank Disputes,NA,NA,NA,NA,NA,NA
+"Vivian Bose
+",03-05-1951,06-08-1956,0,NA,1891/06/09,Gujarat,0,Christian,NA,Cambridge,1924,Maharashtra,0,NA,0,Nagpur,1,NA,1,09-01-1936,0,NA,NA,NA,1,1,02-05-1905,Nagpur,NA,NA,NA,NA,1,1,Standing Counsel,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Ghulam Hasan
+",09-08-1952,11-05-1954,0,NA,1891/07/03,Punjab,0,Islam,NA,Allahabad University,1917,Uttar Pradesh,NA,NA,0,Allahabad,1,NA,1,01-08-1940,0,NA,NA,NA,1,1,1946,Oudh,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Natwarlal Harilal Bhagwati
+",08-09-1952,06-06-1959,0,NA,1894/08/07,Gujarat,0,NA,NA,"Government Law College, Bombay",1921,Maharashtra,0,NA,0,Bombay,0,27-08-1944,1,17-02-1946,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Bachu Jagannadhadas
+",03-09-1953,26-07-1958,0,NA,1893/07/27,Orissa,0,NA,NA,Madras University,1918,Tamil Nadu,0,NA,0,Orissa,1,NA,1,26-07-1948,0,NA,NA,NA,1,1,30-10-1951,Orissa,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Tirunelveli Lakshamanasuri Venkatarama Aiyyar
+",01-04-1954,24-11-1958,0,NA,1893/11/25,Tamil Nadu,0,Hindu,Brahmin,Madras University,1917,Tamil Nadu,0,NA,0,Madras,0,NA,1,07-01-1951,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Syed Jaffer Imam,10-01-1955,31-01-1964,0,NA,18-04-1900,Bihar,0,Islam,NA,Cambridge University,1922,Bihar,NA,NA,0,Patna,1,NA,1,01-10-1943,NA,NA,NA,NA,1,1,03-09-1953,Patna,NA,NA,NA,NA,0,1,"Advocate General, Bihar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sudhansu Kumar Das,30-04-1956,02-09-1963,2,01-08-1963,1898/09/03,Bihar,0,NA,NA,University of London,NA,NA,NA,NA,0,Patna,0,04-11-1944,1,12-01-1948,NA,NA,NA,NA,1,1,10-01-1955,Patna,NA,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"P. Govinda Menon
+",01-09-1956,16-10-1957,0,NA,1896/09/10,Kerala,0,NA,NA,Madras University,1920,Tamil Nadu,0,NA,0,Madras,0,28-07-1947,1,DNA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Crown Prosecutor,Civil,Criminal,Hindu Law,Marumakhattayam and Allyasantana Law,NA,NA,NA,NA,NA
+"Jeevan Lal Kapur
+",14-01-1957,12-12-1962,0,NA,1897/12/13,Undivided Punjab,0,NA,NA,Punjab University,1922,Punjab,0,NA,0,Punjab,0,06-06-1949,1,26-07-1949,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Law of Adoption,NA,NA,NA,NA,NA,NA,NA,NA
+"Kulada Charan Das Gupta
+",24-08-1959,01-02-1965,0,NA,03-01-1900,Undivided Bengal,0,NA,NA,Calcutta University; Cambridge,1938,West Bengal,0,NA,0,Calcutta,NA,NA,1,01-06-1948,0,NA,NA,NA,1,1,01-10-1958,Calcutta,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+N. Rajagopala Ayyangar,27-07-1960,14-12-1964,0,NA,13-03-1905,NA,0,NA,NA,NA,1926,West Bengal,NA,NA,NA,NA,NA,NA,NA,NA,1,Federal Court of India,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Janardan Rangnath Mudholkar,03-10-1960,03-07-1966,0,NA,09-05-1902,NA,0,NA,NA,"Elphinstone College, Bombay; Sidney Sussex College, Cambridge",1925,Andhra Pradesh,NA,NA,0,Nagpur,0,21-06-1948,1,11-11-1948,1,Nagpur,Bombay,NA,1,1,"*August, 1960",Bombay,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ranadhir Singh Bachawat,07-09-1964,31-07-1969,0,NA,01-08-1904,West Bengal,0,NA,NA,"St. Xavier's College, Calcutta",1931,West Bengal,NA,NA,0,Calcutta,NA,NA,1,03-05-1905,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Vaidynathier Ramaswami,04-01-1965,29-10-1969,0,NA,30-10-1904,NA,0,NA,NA,"Universities of Allahabad and Oxford and Inner Temple, London",NA,NA,NA,NA,0,Patna,NA,NA,1,01-11-1947,NA,NA,NA,NA,1,1,30-04-1956,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P. Satyanarayana Raju,20-10-1965,20-04-1966,0,NA,17-08-1908,NA,0,NA,NA,"Tanuku, Vizianagaram, Madras.",NA,Tamil Nadu,NA,NA,0,Madras,NA,NA,NA,25-09-1930,1,Andhra Pradesh,NA,NA,1,1,30-12-1964,NA,NA,NA,NA,NA,0,1,Government Pleader of the Composite Madras State,NA,NA,NA,NA,NA,NA,NA,NA,NA
+J.M. Shela,24-02-1966,30-04-1973,0,NA,16-07-1908,NA,0,NA,NA,"University of Bombay, Uniersity of London",1993,Maharashtra,NA,NA,0,Bombay,NA,NA,NA,NA,1,Gujarat,NA,NA,1,1,23-05-1963,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Vashishtha Bhargava,08-08-1966,04-02-1971,0,NA,05-02-1906,NA,0,NA,NA,University of Allahabad,NA,NA,NA,NA,0,Allahabad,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gopendra Krishna Mitter,29-08-1966,23-09-1971,0,NA,24-09-1906,NA,0,NA,NA,"University College, London",NA,Bihar,NA,NA,NA,NA,NA,NA,NA,NA,1,Calcutta,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+C.A. Vaidialingam,10-10-1966,29-06-1972,0,NA,30-06-1907,NA,0,NA,NA,Presidency College and Law College,1931,Tamil Nadu,NA,NA,0,Madras,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Kawdoor Sadananda Hegde,17-07-1967,30-04-1973,0,NA,11-06-1909,NA,0,NA,NA,"St. Aloysius College, Mangalore; Presidency College and Law College",1936,Tamil Nadu,NA,NA,0,Mysore,NA,NA,NA,26-08-1957,1,Delhi,NA,NA,1,1,31-10-1967,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Amar Nath Grover,11-02-1968,31-05-1973,0,NA,15-02-1912,NA,0,NA,NA,"Government Coll., Lahore; Christ Coll. Cambridge, M.A., (Hist.) Punjab; Law Tripos, Cambridge, 1935; LL.B., Cambridge",1936,NA,NA,NA,0,"Lahore, Simla, Chandigarh",NA,NA,NA,NA,1,Punjab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Pingle Jaganmohan Reddy
+",08-01-1969,22-01-1975,0,NA,23-01-1910,NA,0,NA,NA,Cambridge University,1937,Andhra Pradesh,0,NA,0,Hyderabad,NA,NA,1,05-05-1905,0,Andhra Pradesh,NA,NA,1,1,19-07-1966,Andhra Pradesh,NA,NA,NA,NA,1,0,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"I.D. Dua
+",08-01-1969,10-03-1972,0,NA,04-08-1907,NA,0,NA,NA,"Forman Christian College,Lahore",1933,Punjab,1,1944,0,Punjab,NA,NA,1,11-05-1905,1,Delhi,NA,NA,1,1,01-07-1967,Delhi,NA,NA,NA,NA,0,1,Central Government Counsel,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Subimal Chandra Roy
+",19-07-1971,11-12-1971,0,NA,29-05-1912,NA,0,NA,NA,Calcutta University,1937,West Bengal,1,1968,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,Senior Counsel for Union of India,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Devidas Ganpat Palekar
+",19-07-1971,09-03-1974,0,NA,04-08-1909,NA,0,NA,NA,"Government Law College, Bombay",1934,Maharashtra,0,NA,0,Bombay,0,14-10-1961,1,27-08-1962,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Hans Raj Khanna,22-09-1971,03-11-1977,0,NA,03-07-1912,NA,0,NA,NA,"Law College, Lahore","Enrolled as Pleader; Practised at Amritsar till January, 1952",Punjab,0,NA,0,Punjab,NA,NA,NA,15-05-1905,1,Delhi,NA,NA,1,1,22-05-1905,NA,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Kuttyil Kurien Mathew",10-04-1971,01-02-1976,0,NA,03-01-1911,NA,0,NA,NA,"Law College, Trivandrum",1935,Kerala,0,NA,0,Kerala,NA,NA,NA,15-05-1905,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,Advocate General,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Surendra Narayan Dwivedi
+",14-08-1972,12-08-1974,0,NA,01-10-1913,NA,0,NA,NA,University of Lahore,1943,NA,NA,NA,0,Allahabad,NA,NA,NA,05-12-1959,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Junior Standing Counsel,Civil Laws,NA,NA,NA,NA,NA,NA,NA,NA
+Arun Kumar Mukherjea,14-08-1972,23-10-1973,0,NA,20-01-1915,NA,0,NA,NA,"School of Oriental Studies, London",1951,West Bengal,NA,NA,0,Calcutta,NA,NA,NA,12-12-1963,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,Calcutta,NA,NA,NA,NA,NA,NA,NA,NA,NA
+A Alagiriswami,17-10-1972,16-10-1975,0,NA,17-10-1972,NA,0,NA,NA,Presidency College,NA,NA,NA,NA,0,Madras,NA,NA,NA,11-08-1966,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,Government Pleader,NA,NA,NA,NA,NA,NA,NA,NA,NA
+V.R. Krishna Iyer,17-07-1973,14-11-1980,0,NA,01-11-1915,NA,0,NA,NA,NA,NA,NA,NA,NA,0,Kerala,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Parbati Kumar Goswami,10-09-1973,31-12-1977,0,NA,01-01-1913,NA,0,NA,NA,"Earle Law College, Gauhati",1943,West Bengal,1,1953,0,Gauhati,NA,NA,NA,NA,NA,NA,NA,NA,1,1,31-01-1970,Gauhati,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ranjit Singh Sarkaria,17-09-1973,15-01-1981,0,NA,16-01-1916,NA,0,NA,NA,"University Law College, Lahore",1940,Bihar,NA,NA,NA,NA,NA,NA,NA,NA,1,Punjab and Haryana,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Alak Chandra Gupta,02-09-1974,31-12-1981,0,NA,01-01-1917,NA,0,NA,NA,"Presidency College, Calcutta",1945,NA,NA,NA,0,Calcutta,NA,NA,NA,24-02-1964,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+N.L. Untwalia,03-10-1974,31-07-1980,0,NA,01-08-1915,NA,0,NA,NA,"University Law College, Calcutta",1944,Bihar,NA,NA,0,Patna,NA,NA,NA,04-11-1958,NA,NA,NA,NA,1,1,29-09-1972,Patna,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S. Murtaza Fazal Ali,02-04-1975,20-08-1985,0,NA,20-12-1920,NA,0,NA,NA,Patna University,1944,NA,NA,NA,0,Jammu and Kashmir,NA,NA,NA,09-04-1958,NA,NA,NA,NA,1,1,01-12-1967,of Jammu and Kashmir,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Prakash Narayan Shingal
+",11-06-1975,14-10-1980,0,NA,15-10-1915,NA,0,NA,NA,Rajasthan,NA,NA,NA,NA,0,Rajasthan,0,21-06-1961,1,NA,0,NA,NA,NA,1,1,17-02-1975,Rajasthan,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Jaswant Singh
+",23-01-1976,24-01-1979,0,NA,25-01-1914,NA,0,NA,NA,"Forman Christian College, Lahore",1936,Jammu and Kashmir,0,NA,0,Jammu and Kashmir,0,16-03-1967,1,12-03-1967,0,NA,NA,NA,1,1,04-02-1975,Jammu and Kashmir,NA,NA,NA,NA,0,1,Advocate General,Constitutional Law,NA,NA,NA,NA,NA,NA,NA,NA
+"P.S. Kailasam
+",01-03-1977,09-11-1980,0,NA,09-12-1915,NA,0,NA,NA,NA,1938,Tamil Nadu,0,NA,0,Madras,NA,NA,1,01-10-1960,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Public Prosecutor,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"V.D. Tulzapurkar
+",30-09-1977,08-03-1986,0,NA,09-03-1921,NA,0,NA,NA,"Government Law College, Madras",1942,Maharashtra,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Dhirajlal Ambelal Desai
+",30-09-1977,05-08-1985,0,NA,09-05-1920,NA,0,NA,NA,NA,1945,Maharashtra,0,NA,0,Gujarat,0,19-02-1968,1,19-02-1969,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1,0,NA,Civil,Criminal,Tenancy,Land Revenue,Labour and Industrial,Central Excise,NA,NA,NA
+"A.D. Koshal
+",17-07-1978,03-06-1982,0,NA,07-03-1917,Punjab,0,NA,NA,"Law College, Lahore",1936,Punjab,0,NA,0,Punjaba and Haryana,NA,NA,1,28-05-1968,1,Madras,NA,NA,1,1,28-05-1968,Punjab and Haryana,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Ontethupalli Chinnappa Reddy
+",17-07-1978,24-09-1987,0,NA,25-09-1922,NA,0,NA,NA,"Law College, Madras",1944,Tamil Nadu,0,NA,0,Andhra Pradesh,0,21-08-1967,1,27-01-1967,1,Andhra Pradesh,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Anand Prakash Sen
+",17-07-1978,19-09-1988,0,NA,20-09-1923,NA,0,NA,NA,"Law College, Nagpur",1945,Maharashtra,0,NA,0,Madhya Pradesh,0,07-11-1967,1,29-07-1968,1,Rajasthan,NA,NA,1,2,16-02-1977,Rajasthan,28-02-1978,Madhya Pradesh,NA,NA,0,0,NA,Constitutional,Civil,Taxation,NA,NA,NA,NA,NA,NA
+"Baharul Islam
+",12-04-1980,01-12-1983,0,NA,01-03-1918,Assam,0,NA,NA,Aligarh Muslim University,1951,Assam,0,NA,0,Assam,NA,DNA,1,DNA,1,Nagaland,NA,NA,1,1,11-03-1979,Gauhati,07-07-1979,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Appajee Varadarajan
+",12-10-1980,16-08-1985,0,NA,17-08-1920,Tamil Nadu,0,NA,NA,"Law College, Madras",1944,Tamil Nadu,0,NA,0,Madras,NA,15-02-1973,1,27-02-1974,NA,Madras,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Amarendra Nath Sen
+",28-01-1981,30-09-1985,0,NA,01-10-1920,NA,0,NA,NA,Calcutta University,1947,West Bengal,0,NA,0,Calcutta,NA,15-11-1965,1,25-07-1966,NA,NA,NA,NA,1,1,26-12-1979,Calcutta,NA,NA,NA,NA,0,0,NA,Civil,NA,NA,NA,NA,NA,NA,NA,NA
+"Vettath Balakrishna Eradi
+",30-01-1981,18-06-1987,0,NA,19-06-1922,NA,0,NA,NA,Madras Law College,1945,Tamil Nadu,0,NA,0,Kerala,NA,05-04-1967,1,16-10-1967,0,NA,NA,NA,1,1,19-01-1980,Kerala,NA,NA,NA,NA,0,0,NA,Civil,Criminal,Taxation,NA,NA,NA,NA,NA,NA
+"Ram Briksha Misra
+",30-01-1981,14-06-1986,0,NA,15-06-1921,NA,0,NA,NA,Allahabad University,1946,Uttar Pradesh,0,NA,0,Allahabad,NA,03-01-1968,1,23-07-1969,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Civil,Revenue,Writ jurisdiction,NA,NA,NA,NA,NA,NA
+"Dinshah Pirosha Madon
+",15-03-1983,04-06-1986,0,NA,07-04-1921,NA,0,NA,NA,"Government Law College, Bombay",1944,Maharashtra,0,NA,0,Bombay,NA,25-09-1967,1,06-08-1969,NA,NA,NA,NA,1,1,11-08-1982,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Manharlal Pranlal Thakkar
+",15-03-1983,11-03-1988,0,NA,04-11-1923,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Vazhakkulangarayil  Khalid
+",25-06-1984,30-06-1987,0,NA,01-07-1922,NA,0,NA,NA,"Law College, Madras",1948,Tamil Nadu,NA,NA,0,Madras,NA,NA,1,07-03-1974,NA,NA,NA,NA,1,1,24-08-1983,Jammu and Kashmir,NA,NA,NA,NA,0,0,NA,Criminal,Civil,Writ proceedings,NA,NA,NA,NA,NA,NA
+Goverdhan Lal Oza,29-10-1985,12-11-1989,0,NA,12-12-1924,Madhya Pradesh,0,NA,NA,"Madhav College, Ujjain",1948,Madhya Pradesh,0,NA,0,Madhya Pradesh,NA,29-07-1968,NA,NA,NA,NA,NA,NA,1,1,01-12-1984,Madhya Pradesh,NA,NA,NA,NA,0,0,NA,Constitutional,Civil,Criminal,Labour,NA,NA,NA,NA,NA
+"Bankim Chandra Ray
+",29-10-1985,31-10-1991,0,NA,01-11-1926,West Bengal,0,NA,NA,Calcutta University,1952,West Bengal,NA,NA,0,Calcutta,NA,10-06-1974,1,10-06-1974,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Civil,Criminal,Writ proceedings,NA,NA,NA,NA,NA,NA
+"Murari Mohan Dutt
+",03-10-1986,29-10-1989,0,NA,30-10-1924,West Bengal,0,NA,NA,Calcutta University,1952,West Bengal,NA,NA,0,Calcutta,NA,18-09-1969,1,25-05-1971,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Civil,Criminal,NA,NA,NA,NA,NA,NA,NA
+"Sivasankar Natarajan
+",03-10-1986,28-10-1989,0,NA,29-10-1924,NA,0,NA,NA,"Law College, Madras",1947,Tamil Nadu,0,NA,0,Madras,NA,15-02-1973,1,27-02-1974,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1,0,NA,Civil,Criminal,Taxation,NA,NA,NA,NA,NA,NA
+"Kalmanje  Jagannatha Shetty
+",05-01-1987,14-12-1991,0,NA,15-12-1926,Karnataka,0,NA,NA,"Osmania University, Hyderabad",1955,Andhra Pradesh,0,NA,0,Karnataka,NA,NA,1,24-10-1985,1,Allahabad,NA,NA,1,1,01-10-1986,Allahabad,NA,NA,NA,NA,0,0,NA,Civil,Service,Constitutional,NA,NA,NA,NA,NA,NA
+"Srinivasachar Ranganathan
+",10-05-1987,30-10-1992,0,NA,31-10-1927,NA,0,NA,NA,NA,1952,NA,NA,NA,0,Delhi,NA,14-11-1977,1,19-03-1978,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Senior Standing Counsel,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Narayan Dutta Ojha
+",18-01-1988,18-01-1991,0,NA,19-01-1926,Uttar Pradesh,0,NA,NA,Allahabad University,1951,Uttar Pradesh,0,NA,0,Allahabad,NA,03-09-1971,1,12-12-1972,1,Madhya Pradesh,NA,NA,1,2,18-08-1986,Allahabad,"8th January, 1987*",Madhya Pradesh,NA,NA,0,0,NA,Civil,Constitutional,NA,NA,NA,NA,NA,NA,NA
+S. Ratnavel Pandian,14-12-1988,03-12-1994,0,NA,13-02-1929,Tamil Nadu,0,NA,NA,Madras Law College,NA,Tamil Nadu,0,NA,0,Madras,NA,NA,1,01-02-1974,0,NA,NA,NA,1,1,18-01-1988,Madras,NA,NA,NA,NA,0,1,State Public Prosecutor,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"T. Kochu Thommen
+",14-12-1988,25-09-1993,0,NA,26-09-1928,Kerala,0,NA,NA,NA,1957,Kerala,0,NA,0,Kerala,NA,NA,1,09-05-1975,0,NA,NA,NA,1,1,1985,Kerala,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"K.N. Saikia
+",14-12-1988,28-02-1991,0,NA,01-03-1926,Assam,0,NA,NA,"J B College, Jorhat",1955,Gauhati,0,NA,0,Gauhati,NA,NA,1,12-02-1979,0,NA,NA,NA,1,1,20-12-1986,NA,NA,NA,NA,NA,0,0,NA,Civil,Criminal,Constitution,Revenue,NA,NA,NA,NA,NA
+"Kuldip Singh
+",14-12-1988,31-12-1996,0,NA,01-01-1932,NA,0,NA,NA,University of London,1959,Punjab,0,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Senior Standing Counsel,Constitutional Law,Service Law,Land Acquisition,Cooperation Law,Election matters,NA,NA,NA,NA
+"V. Ramaswami
+",10-06-1989,14-02-1994,0,NA,15-02-1929,NA,0,NA,NA,"Law College, Madras",1953,Tamil Nadu,0,NA,0,Madras,NA,NA,1,31-01-1971,1,Punjab and Haryana,NA,NA,1,1,12-11-1987,Punjab and Haryana,NA,NA,NA,NA,0,1,State Public Prosecutor,Civil,Criminal,NA,NA,NA,NA,NA,NA,NA
+"P.B. Sawant
+",10-06-1989,29-06-1995,0,NA,30-06-1930,NA,0,NA,NA,Bombay University,1957,Bombay,0,NA,0,Bombay,NA,NA,1,26-05-1905,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Narendra Monhan Kasliwal,10-06-1989,04-03-1993,0,NA,04-04-1928,NA,0,NA,NA,NA,1954,Rajasthan,0,NA,0,Rajasthan,NA,15-06-1978,1,23-11-1978,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Civil,Constitutional,NA,NA,NA,NA,NA,NA,NA
+"K. Ramaswamy
+",10-06-1989,07-12-1997,0,NA,13-07-1932,Andhra Pradesh,0,NA,NA,Andhra University Law College,1962,Andhra Pradesh,0,NA,0,Andhra Pradesh,NA,29-09-1982,1,26-11-1982,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Senior Standing Counsel,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"M. Fathima Beevi
+",10-06-1989,29-04-1992,0,NA,30-04-1927,Kerala,1,NA,NA,"University College, Trivandrum",1950,Kerala,0,NA,0,Kerala,NA,04-08-1983,1,14-03-1984,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"K. Jayachandra Reddy
+",01-11-1990,14-07-1994,0,NA,15-07-1929,Tamil Nadu,0,NA,NA,Madras University,1951,Tamil Nadu,0,NA,0,Andhra Pradesh,NA,07-03-1975,1,30-06-1976,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Principal Public Prosecutor,NA,NA,NA,NA,NA,NA,NA,NA,NA
+S.C. Agrawal,01-11-1990,09-04-1998,0,NA,05-09-1933,Rajasthan,0,NA,NA,"Birla College, Pilani; Rajasthan University",1955,Rajasthan,0,NA,0,Rajasthan,NA,15-06-1978,1,14-06-1980,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"R.M. Sahai
+",01-11-1990,24-06-1995,0,NA,NA,Uttar Pradesh,0,NA,NA,Allahabad University,1956,Uttar Pradesh,0,NA,0,Allahabad,NA,NA,1,27-01-1976,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Standing Cousel for UP,Sales Tax,NA,NA,NA,NA,NA,NA,NA,NA
+"Yogeshwar Dayal
+",22-03-1991,08-02-1994,0,NA,18-11-1930,Punjab,0,NA,NA,Delhi university,1953,Delhi,0,NA,0,Delhi,NA,NA,1,28-02-1974,1,Andhra Pradesh,NA,NA,1,2,21-08-1987,Delhi,18-03-1988,Andhra Pradesh,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Shanmughasundaram Mohan
+",10-07-1991,02-10-1995,0,NA,11-02-1930,NA,0,NA,NA,Madras University,1954,Tamil Nadu,0,NA,0,Madras,NA,01-02-1974,1,01-08-1975,1,Karnataka,NA,NA,1,2,13-12-1988,Madras,26.10.1989,Karnataka,NA,NA,0,1,Special Government Pleader,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"B.P. Jeevan Reddy
+",10-07-1991,13-03-1997,0,NA,14-03-1932,NA,0,NA,NA,Osmania University,1954,Andhra Pradesh,0,NA,0,Andhra Pradesh,NA,17-07-1975,1,28-01-1978,1,Allahabad,NA,NA,1,1,16-04-1990,Allahabad,NA,NA,NA,NA,0,0,NA,Civil,Constitutional,NA,NA,NA,NA,NA,NA,NA
+"Ganendra Narayan Ray
+",10-07-1991,30-04-1998,0,NA,01-05-1933,NA,0,NA,NA,Calcutta University,NA,Calcutta,0,NA,0,Calcutta,NA,23-12-1976,1,24-11-1977,1,Gujarat,NA,NA,1,1,02-12-1990,Gujarat,NA,NA,NA,NA,0,1,Senior Counsel for Central Government,Civil,Criminal,NA,NA,NA,NA,NA,NA,NA
+"R.C. Patnaik",12-03-1991,30-05-1992,0,NA,28-07-1935,NA,0,NA,NA,NA,1958,Orissa,0,NA,0,Orissa,NA,NA,1,18-09-1981,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"N.P. Singh
+",15-06-1992,24-12-1996,0,NA,25-12-1931,NA,0,NA,NA,NA,1956,Bihar,0,NA,0,Patna,NA,NA,1,12-04-1973,1,Calcutta,NA,NA,1,2,1991,Patna,04-02-1992,Calcutta,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Nanje Gowda Venkatachala
+",07-01-1992,07-02-1995,0,NA,03-07-1930,Karnataka,0,NA,NA,Mysore University,1955,Karnataka,0,NA,0,Karnataka,NA,28-11-1977,1,08-09-1978,0,NA,NA,NA,1,1,01-05-1992,Karnataka,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Manoj Kumar Mukherjee
+",14-12-1993,30-11-1998,0,NA,01-12-1933,NA,0,NA,NA,NA,1956,West Bengal,0,NA,0,Calcutta,NA,17-06-1977,1,08-12-1977,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Criminal cases,Industrial Labour,NA,NA,NA,NA,NA,NA,NA
+"Faizanuddin",14-12-1993,02-04-1997,0,NA,05-02-1932,Madhya Pradesh,0,NA,NA,"Hamidia College, Bhopal",1955,Madhya Pradesh,0,NA,0,Madhya Pradesh,NA,27-11-1978,1,27-05-1982,NA,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,0,1,Standing Counsel for MP Wakf Board,Civil,Criminal,Revenue,NA,NA,NA,NA,NA,NA
+"Banwari Lal Hansaria
+",14-12-1993,24-12-1996,0,NA,25-12-1931,Assam,0,NA,NA,NA,1962,Assam,0,NA,0,Gauhati,NA,NA,1,09-02-1979,1,Orissa,NA,NA,1,1,22-02-1990,NA,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Suhash C. Sen
+",06-11-1994,20-12-1997,0,NA,NA,West Bengal,0,NA,NA,Calcutta University,1960,West Bengal,0,NA,0,Calcutta,NA,23-11-1981,1,20-08-1982,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,0,NA,Taxation,Company Cases,Constitutional writ,NA,NA,NA,NA,NA,NA
+Krishnaswami Sundara Paripoornan,06-11-1994,06-11-1997,0,NA,12-06-1932,NA,0,NA,NA,NA,1956,Kerala,0,NA,0,Kerala,NA,NA,1,23-12-1982,1,Patna,NA,NA,1,1,24-01-1994,Patna,NA,NA,NA,NA,0,1,Government Counsel,Civil,Taxation,NA,NA,NA,NA,NA,NA,NA
+"Shailesh Bhadrayulal Majmudar
+",19-09-1994,19-08-2000,0,NA,20-08-1935,NA,0,NA,NA,NA,1961,Gujarat,0,NA,0,Gujarat,NA,03-10-1978,1,19-07-1979,1,Andhra,Karnataka,02-07-1993,1,2,12-10-1992,Andhra,02-07-1993,Karnataka,NA,NA,0,0,Constitutional,Civil,Criminal,NA,NA,NA,NA,NA,NA,NA
+"Sujata Vasant Manohar
+",11-08-1994,27-08-1999,0,NA,28-08-1934,NA,1,NA,NA,"Elphinstone College, Bombay",1958,Maharashtra,0,NA,0,Bombay,NA,23-01-1978,1,28-11-1978,1,Kerala,NA,NA,1,2,15.1.1994,Bombay,21.4.1994,Kerala,NA,NA,0,1,Assistant Government Pleader,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Girish Thakorlal Nanavati
+",03-06-1995,16-02-2000,0,NA,17-02-1935,NA,0,NA,NA,NA,1958,Maharashtra,0,NA,0,Gujarat,NA,NA,1,19-07-1979,1,Orissa,Karnataka,28-09-1994,1,2,31-01-1994,Orissa,28-09-1994,Karnataka,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Saiyed Saghir Ahmad,03-06-1995,30-06-2000,0,NA,01-07-1935,NA,0,NA,NA,NA,1961,Uttar Pradesh,0,NA,0,Allahabad,NA,02-11-1981,1,30-12-1982,1,Jammu and Kashmir,Andhra Pradesh,23-09-1994,1,2,18-03-1994,Jammu and Kashmir,23-09-1994,Andhra Pradesh,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Konduswami Venkataswami
+",03-06-1995,18-09-1999,0,NA,19-09-1934,NA,0,NA,NA,Madras University,1959,Tamil Nadu,0,NA,0,Madras,NA,NA,1,24-07-1983,1,Patna,NA,NA,1,1,19-06-1994,Patna,NA,NA,NA,NA,0,1,Government Pleader,Taxation,NA,NA,NA,NA,NA,NA,NA,NA
+"Sudhakar Panditrao Kurdukar
+",29-03-1996,15-01-2000,0,NA,16-01-1935,NA,0,NA,NA,NA,1961,Maharashtra,0,NA,0,Bombay,NA,25-04-1978,1,11-01-1979,1,Punjab & Haryana,NA,NA,1,1,16-01-1994,Punjab & Haryana,NA,NA,NA,NA,0,1,Public Prosecutor,Civil,Criminal,Writ,NA,NA,NA,NA,NA,NA
+"Kallupurackal Thomas Thomas
+",29-03-1996,29-01-2002,0,NA,30-01-1937,NA,0,NA,NA,NA,1960,Kerala,0,NA,0,Kerala,NA,12-08-1985,1,11-07-1986,0,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Mamidana Jagannadha Rao
+",21-03-1997,12-01-2000,0,NA,12-02-1935,NA,0,NA,NA,NA,1960,Andhra Pradesh,0,NA,0,Andhra Pradesh,NA,29-09-1982,1,29-11-1982,1,Kerala,Delhi,12-04-1994,1,1,08-08-1991,Kerala,NA,NA,NA,NA,0,0,NA,Civil,NA,NA,NA,NA,NA,NA,NA,NA
+"Devinder Pratap Wadhwa
+",21-03-1997,05-04-2000,0,NA,05-05-1935,NA,0,NA,NA,NA,1958,Punjab,0,NA,0,Delhi,NA,12-08-1983,1,23-02-1984,1,Patna,NA,NA,1,1,29-09-1995,Patna,NA,NA,NA,NA,0,1,Central Government Standing Counsel,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Madhavachari Srinivasan
+",25-09-1997,25-02-2000,0,NA,01-12-1937,NA,0,NA,NA,NA,1958,Tamil Nadu,0,NA,0,Madras,NA,NA,1,02-06-1986,1,Himachal Pradesh,NA,NA,1,1,12-08-1996,Madras,NA,NA,NA,NA,0,0,NA,Civil,Appeals,Revisions,Writs,NA,NA,NA,NA,NA
+"Ajay Prakash Misra
+",12-04-1997,31-08-2001,0,NA,01-09-1936,NA,0,NA,NA,NA,1960,Uttar Pradesh,0,NA,0,Allahabad,NA,NA,1,24-05-1984,1,Delhi,NA,NA,1,1,26-06-1997,Delhi,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Syed Shah Mohammed Quadri
+",12-04-1997,04-04-2003,0,NA,05-04-1938,NA,0,NA,NA,"Osmania University, Hyderabad",1963,Andhra Pradesh,0,NA,0,Andhra Pradesh,NA,NA,1,01-07-1986,0,NA,NA,NA,1,1,03-11-1997,Andhra Pradesh,NA,NA,NA,NA,0,1,Government Pleader,Constitution,Taxation,Civil,Criminal,NA,NA,NA,NA,NA
+"Manharlal Bhikhalal Shah
+",12-09-1998,24-09-2003,0,NA,25-09-1938,NA,0,NA,NA,NA,1962,Gujarat,0,NA,0,Gujarat,NA,28-01-1983,1,05-06-1983,1,Bombay,NA,NA,1,1,02-08-1995,Bombay,NA,NA,NA,NA,0,1,Ass. Public Prosecutor,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Deba Priya Mohapatra
+",12-09-1998,08-02-2002,0,NA,03-08-1937,NA,0,NA,NA,NA,1960,Orissa,0,NA,0,Orissa,NA,NA,1,18-11-1983,1,Allahabad,NA,NA,1,1,16-02-1996,Allahabad,NA,NA,NA,NA,0,1,State Standing Counsel,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Umesh Chandra Banerjee
+",12-09-1998,17-11-2002,0,NA,18-11-1937,NA,0,NA,NA,NA,NA,West Bengal,0,NA,0,Calcutta,NA,NA,1,09-01-1984,1,Andhra Pradesh,NA,NA,1,1,01-02-1998,Andhra Pradesh,NA,NA,NA,NA,0,0,NA,Civil,Criminal,Writ,NA,NA,NA,NA,NA,NA
+"N. Santosh Hegde
+",01-08-1999,15-06-2005,0,NA,16-06-1940,NA,0,NA,NA,NA,1966,Karnataka,1,1984,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,1,Solicitor General,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"R.P. Sethi
+",01-08-1999,07-06-2002,0,NA,07-07-1937,NA,0,NA,NA,NA,1961,Jammu and Kashmir,0,NA,0,Jammu and Kashmir,NA,30-05-1986,1,05-08-1987,1,Punjab and Haryana,Karnataka,29-06-1996,1,1,29-06-1996,Karnataka,NA,NA,NA,NA,0,1,Standing Counsel for Union of India,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sailendu Nath Phukan
+",28-01-1999,31-03-2002,0,NA,01-04-1937,Assam,0,NA,NA,NA,1962,Assam,0,NA,0,Gauhati,NA,NA,1,11-10-1985,1,Himachal,Orissa,02-08-1996,1,1,NA,Himachal,01-03-1995,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Doraiswamy Raju,28-01-2000,01-07-2004,0,NA,02-07-1939,Tamil Nadu,0,NA,NA,NA,1962,Tamil Nadu,1,1987,0,Madras,NA,NA,1,14-07-1990,1,Himachal,NA,NA,1,1,01-07-1998,Himachal,NA,NA,NA,NA,0,0,NA,Regular,Civil,Writ,Transport,Taxation,Land Tenure,NA,NA,NA
+Ruma Pal,28-01-2000,03-06-2006,0,NA,03-06-1941,NA,1,NA,NA,NA,1968,West Bengal,0,NA,0,Calcutta,NA,NA,1,06-08-1990,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Variava Sam Nariman,15-03-2000,08-11-2005,0,NA,08-11-1940,Maharashtra,0,NA,NA,NA,1964,Maharashtra,0,NA,0,Bombay,NA,NA,1,12-06-1987,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Shivaraj V. Patil,15-03-2000,11-01-2005,0,NA,12-01-1940,Karnataka,0,NA,NA,NA,1962,Karnataka,0,NA,0,of Karnataka,NA,NA,1,29-03-1990,1,of Madras,of Rajasthan,22-01-1999,1,2,28-12-1990,Madras,22-01-1999,Rajasthan,NA,NA,0,0,NA,Criminal,Civil,NA,NA,NA,NA,NA,NA,NA
+"Brijesh Kumar
+",19-10-2000,09-06-2004,0,NA,10-06-1939,Uttar Pradesh,0,NA,NA,NA,1960,Uttar Pradesh,0,NA,0,Allahabad,NA,NA,1,24-05-1984,1,Guwahati,NA,NA,1,2,NA,Allahabad,12-02-1999,Guawahati,NA,NA,0,1,Union and State Standing Counsel,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Bishwa Nath Agrawal,19-10-2000,15-10-2009,0,NA,15-10-1944,NA,0,NA,NA,NA,1966,Bihar,0,NA,0,Patna,NA,NA,1,17-11-1986,1,Orissa,NA,NA,1,1,18-11-1999,Orissa,NA,NA,NA,NA,0,0,NA,Civil,Constitutional,NA,NA,NA,NA,NA,NA,NA
+P. Venkatarama Reddi,17-08-2001,10-08-2005,0,NA,10-08-1940,Andhra Pradesh,0,NA,NA,NA,1962,Andhra Pradesh,0,NA,0,Andhra Pradesh,NA,NA,1,16-03-1990,1,Karnataka,NA,NA,1,1,21-10-2000,Karnataka,NA,NA,NA,NA,0,0,NA,Taxation,Service,Company Law,NA,NA,NA,NA,NA,NA
+Ashok Bhan,17-06-2001,02-10-2008,0,NA,02-10-1943,Punjab,0,NA,NA,NA,1965,Punjab,1,1982,0,Punjab and Haryana,NA,NA,1,15-06-1990,1,Karnataka,NA,NA,1,1,26-06-2000,Karnataka,NA,NA,NA,NA,0,1,"AAG of Punjab and Senior Counsel for the Department of Income tax, Gov. of India",NA,NA,NA,NA,NA,NA,NA,NA,NA
+Arijit Pasayat,19-10-2001,10-05-2009,0,NA,10-05-1944,NA,0,NA,NA,NA,1968,NA,NA,NA,0,Orissa,NA,20-03-1989,1,NA,1,Kerala,Delhi,10-05-2000,1,2,20-09-1999,Kerala,10-05-2000,Delhi,NA,NA,0,0,NA,Taxation,commercial,Constitutional,NA,NA,NA,NA,NA,NA
+Singh B P,14-12-2001,08-07-2007,0,NA,09-07-1942,NA,0,NA,NA,NA,1963,NA,NA,NA,0,Patna,NA,NA,1,09-03-1987,1,Karnataka,Bombay,31-03-2000,1,1,31-03-2000,Bombay,NA,NA,NA,NA,0,0,NA,Civil,Criminal,Constitutional,NA,NA,NA,NA,NA,NA
+DM Dharmadhikari,05-03-2002,14-08-2005,0,NA,14-08-1940,Maharashtra,0,NA,NA,NA,1966,Madhya Pradesh,NA,NA,0,Madhya Pradesh,NA,24-03-1989,1,27-07-1990,1,Gujarat,NA,NA,1,1,25-01-2000,Gujarat,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+H K Sema,05-03-2002,06-01-2008,0,NA,01-06-1943,NA,0,NA,NA,"Govt.Law College, Bombay",1971,Gauhati,NA,NA,0,Gauhati,NA,NA,1,24-05-1989,1,of Jammu and Kashmir,Gujarat,25-01-2000,1,2,23-08-2001,Jammu and Kasmir,25-01-2000,Gujarat,NA,NA,0,1,Assistant Advocate General,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Satya Brata Sinha,03-10-2002,08-08-2009,0,NA,08-08-1994,Jharkhand,0,NA,NA,NA,1968,Jharkhand,1,NA,0,Patna,NA,NA,1,09-03-1987,1,Calcutta,Andhra Pradesh,11-12-2000,1,2,1999,Calcutta,11-12-2000,Andhra Pradesh,NA,NA,0,1,Government Advocate,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Arun Kumar,03-10-2002,12-04-2006,0,NA,12-04-1941,NA,0,NA,NA,NA,1964,Delhi,NA,NA,0,Delhi,NA,NA,1,13-07-1990,1,Rajasthan,NA,NA,1,1,02-12-2001,Rajasthan,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+B N Srikrishna,03-10-2002,21-05-2006,0,NA,21-05-1941,NA,0,NA,NA,NA,1962,Maharashtra,1,1987,0,Bombay,NA,30-07-1990,1,0991/10/03,1,Kerala,NA,NA,1,1,06-09-2001,Kerala,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Arunachalam Chettair Lakshmanan,20-12-2002,22-03-2007,0,NA,22-03-1942,NA,0,NA,NA,NA,1968,Madras,1,NA,0,Madras,NA,NA,1,14-06-1990,1,Kerala,Rajasthan,29-05-2000,1,2,29-05-2000,Rajasthan,26-11-2001,Andhra Pradesh,NA,NA,0,1,Government Pleader,Civil,Criminal,NA,NA,NA,NA,NA,NA,NA
+Govind Prasad Mathur,20-12-2002,19-01-2008,0,NA,19-01-1943,NA,0,NA,NA,NA,1964,Uttar Pradesh,1,NA,0,Allahabad,NA,NA,1,06-07-1990,NA,NA,NA,NA,1,1,06-07-1990,Allahabad,2202/11/25 (Acting),Allahabad,NA,NA,0,1,Senior Standing Counsel,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ashok Kumar Mathur,07-06-2004,07-08-2008,0,NA,07-08-1943,NA,0,NA,NA,NA,1967,Rajasthan,NA,NA,0,Rajasthan,NA,13-07-1985,1,23-07-1986,1,Madhya Pradesh,Calcutta,22-12-1999,1,1,NA,Madhya Pradesh,NA,NA,NA,NA,0,1,Government Advocate,NA,NA,NA,NA,NA,NA,NA,NA,NA
+C K Thakker,07-06-2004,10-11-2008,0,NA,10-11-1943,NA,0,NA,NA,NA,1968,Gujarat,NA,NA,0,of Gujarat,NA,NA,1,21-06-1990,1,Himachal Pradesh,Bombay,31-12-2001,1,2,05-05-2000,Himachal Pradesh,31-12-2001,Bombay,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+KrishnaIyer Balasubramanyan,27-08-2004,28-08-2007,0,NA,28-08-1942,NA,0,NA,NA,NA,1964,Tamil Nadu,NA,NA,0,Kerala,NA,04-06-1992,1,10-03-1993,1,Orissa,Jharkhand,10-03-2003,1,2,05-12-2001,Orissa,10-03-2003,Jharkhand,NA,NA,0,0,NA,Civil,Constitutional,NA,NA,NA,NA,NA,NA,NA
+P.P.Naolekar,28-07-2004,29-06-2008,0,NA,29-06-1943,Madhya Pradesh,0,NA,NA,NA,1965,NA,NA,NA,0,Madhya Pradesh,NA,15-06-1992,1,15-06-1992,1,Rajasthan,NA,NA,1,1,10-06-2002,Gauhati,NA,NA,NA,NA,0,1,Standing Counsel,Civil,Criminal,Constitutional,Company Labour,Service Matters,NA,NA,NA,NA
+Tarun Chatterjee,27-08-2004,14-01-2010,0,NA,14-01-1945,NA,0,NA,NA,NA,1970,NA,0,NA,0,Calcutta,NA,06-08-1990,1,06-08-1990,NA,NA,NA,NA,1,1,31-01-2003,Allahabad,NA,NA,NA,NA,0,0,NA,Civil,Constitutional,Revenue Cases,NA,NA,NA,NA,NA,NA
+Lokeshwar Singh Panta,03-02-2006,23-04-2009,0,NA,23-04-1944,Himachal Pradesh,0,NA,NA,NA,1970,NA,NA,NA,0,Himachal Pradesh,NA,20-08-1991,1,28-07-1995,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0,1,Advocate General,Service Matters,Constitutional,Administrative Law,Civil and Labour Law,Criminal Law,Taxation,NA,NA,NA
+B. Sudershan Reddy,12-01-2007,08-07-2011,0,NA,08-07-1946,NA,0,NA,NA,NA,1971,Andhra Pradesh,NA,NA,0,Andhra Pradesh,NA,02-05-1995,1,02-05-1995,NA,NA,NA,NA,1,1,12-05-2005,Gauhati,NA,NA,NA,NA,0,1,Additional Standing Counsel,Writ Matters,Civil Matters,NA,NA,NA,NA,NA,NA,NA
+V.S. Sirpurkar,12-01-2007,21-08-2011,0,NA,22-08-1946,NA,0,NA,NA,NA,NA,NA,NA,NA,0,Bombay,NA,14-06-1905,NA,NA,NA,NA,NA,NA,1,2,25-07-2004,Uttaranchal,20-03-2005,Calcutta,NA,NA,0,0,NA,Constitutional,Criminal,NA,NA,NA,NA,NA,NA,NA
+H.S. Bedi,12-01-2007,05-09-2011,0,NA,05-09-1946,NA,0,NA,NA,NA,1972,Punjab and Haryana,1,1987,0,Punjab and Haryana,NA,15-03-1991,1,08-07-1992,NA,NA,NA,NA,1,1,03-10-2006,Bombay,NA,NA,NA,NA,0,1,Additional Advocate,Criminal,Writ,Civil,NA,NA,NA,NA,NA,NA
+Mukundakam Sharma,09-04-2008,17-09-2011,0,NA,18-09-1946,NA,0,NA,NA,NA,NA,Gauhati,NA,NA,0,Gauhati,NA,10-01-1994,NA,NA,1,Patna,Delhi,12-12-1994,1,1,04-12-2006,Delhi,NA,NA,NA,NA,0,1,Advocate General,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Markandey Katju,10-04-2006,19-09-2011,0,NA,20-09-1946,NA,0,NA,NA,Allahabad University,NA,Allahabad,0,NA,0,Allahabad,NA,NA,1,1991,1,Madras,Delhi,01-10-2005,1,3,01-08-2004,Allahabad,01-11-2004,Madras,01-10-2005,Delhi,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+J.M. Panchal,11-12-2007,10-05-2011,0,NA,06-10-1946,NA,0,NA,NA,NA,1972,Gujarat,0,NA,0,Gujarat,NA,22-11-1990,1,28-10-1994,1,Rajasthan,NA,NA,1,1,NA,NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+R.V. Raveendran,09-09-2005,15-10-2011,0,NA,15-10-1946,NA,0,NA,NA,NA,1968,DNA,DNA,DNA,DNA,DNA,NA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cyriac Joseph,07-07-2008,28-01-2012,0,NA,28-01-1947,Kerala,0,NA,NA,NA,1968,Kerala,1,1979,0,Kerala,NA,NA,1,06-07-1994,1,Delhi,Uttaranchal,20-03-2005,1,2,20-03-2005,Uttranchal,07-01-2006,Karnatak,NA,NA,0,1,Additional Advocate General,NA,NA,NA,NA,NA,NA,NA,NA,NA
+A.K. Gaguly,17-12-2008,03-02-2012,0,NA,03-02-1947,West Bengal,0,NA,NA,NA,NA,West Bengal,NA,NA,0,Calcutta,NA,NA,1,10-01-1994,1,Patna,Orissa,21-05-2006,1,2,NA,Twice acting CJ of Calcutta,2007/01/28 (acting) 2007/03/02,Orissa,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Dalveer Bhandari,28-10-2005,27-04-2012,0,NA,01-10-1947,NA,0,NA,NA,NA,NA,Rajasthan,NA,NA,0,Delhi,NA,NA,1,01-03-1991,1,Maharashtra and Goa,NA,NA,1,1,05-07-2004,Maharashtra and Goa,NA,NA,NA,NA,0,0,NA,Mediatoin,Conciliation,NA,NA,NA,NA,NA,NA,NA
+Swatanter Kumar,11-05-2009,19-12-2012,0,NA,28-08-1947,Madhya Pradesh,0,NA,NA,NA,1972,NA,NA,NA,0,MP,NA,01-08-2005,NA,NA,1,Karnataka,rajasthan,06-03-2009,1,1,06-03-2009,Rajasthan,NA,NA,NA,NA,0,0,NA,Civil,NA,NA,NA,NA,NA,NA,NA,NA
+DK Jain,10-04-2006,24-01-2013,0,NA,25-01-1948,NA,0,NA,NA,NA,1974,NA,1,1987,0,Delhi,NA,19-03-1991,1,23-01-1992,1,Punjab and Haryana,NA,NA,1,1,11-03-2005,Punjab and Haryana,NA,NA,NA,NA,0,1,Special Prosecution Counsel for Income Tax Dept.,Revenue,Civil,Constitutional,NA,NA,NA,NA,NA,NA
+Aftab Alam,12-11-2007,18-04-2013,0,NA,19-04-1948,Bihar,0,NA,NA,NA,1973,Bihar,1,1984,0,Patna,NA,NA,1,27-07-1990,1,Jammu and Kashmir,NA,NA,1,1,06-06-2007,Jammu and Kashmir,NA,NA,NA,NA,0,1,Additional Central Govt standing counsel in Patna,Labour laws,Constiutional law,NA,NA,NA,NA,NA,NA,NA
+G.S. Singhvi,12-11-2007,12-12-2013,0,NA,12-12-1948,Rajasthan,0,NA,NA,NA,1971,Rajasthan,NA,NA,0,Rajasthan,NA,NA,1,20-07-1990,1,Punjab and Haryana,Gujarat,28-02-2005,1,1,27-11-2005,Andhra Pradesh,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+H.L. Gokhale,30-04-2010,03-10-2014,0,NA,10-03-1949,Gujarat,0,NA,NA,NA,1973,Maharashtra,NA,NA,0,Bombay,NA,20-01-1994,1,04-02-1994,1,Gujarat,Allahabad,07-03-2000,1,2,07-01-2007,Bombay,07-03-2007,Allahabad,NA,NA,0,1,NA,Constitutional law,International Law,NA,NA,NA,NA,NA,NA,NA
+"Gyan Sudha Misra
+",30-04-2010,27-04-2014,0,NA,28-04-1949,NA,0,NA,NA,NA,NA,DNA,DNA,DNA,DNA,DNA,NA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"K.S. Panicker Radhakrishnan
+",17-11-2009,14-05-2014,0,NA,15-05-1949,NA,0,NA,NA,Cochin University,1973,Kerala,0,NA,0,Kerala,NA,17-05-1995,1,16-01-1996,1,Jammu and Kashmir,Gujarat,04-09-2008,1,2,19-03-2005,Kerala,01-07-2008,Jammu and Kashmir,04.09.2008,Gujarat,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Ananga Kumar Patnaik
+",17-11-2009,06-02-2014,0,NA,03-06-1949,Orissa,0,NA,NA,Delhi University,1974,Orissa,0,NA,0,Orissa,NA,13-01-1994,Y - but after back transfer,15-04-2002,1,Gauhati,NA,NA,1,2,14-03-2005,Chattisgarh,02.10.2005,Madhya Pradesh,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"S.S. Nijjar
+",17-11-2009,06-06-2014,0,NA,07-06-1949,NA,0,NA,NA,University of London,1977,Punjab and Haryana,0,NA,0,Punjab & Haryana,NA,08-04-1996,Y - but after back transfer,07-08-2000,1,Bombay,26-04-1996,NA,1,2,03-10-2006,Punjab & Haryana,07-03-2007,Calcutta,NA,NA,0,1,Assistant Advocate General,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Balbir Singh Chauhan
+",05-11-2009,07-01-2014,0,NA,07-02-1949,NA,0,NA,NA,Benaras Hindu University,1974,Delhi,0,NA,0,Allahabad,NA,NA,1,05-04-1995,1,Rajasthan,NA,NA,1,1,01-07-2008,Orissa,NA,NA,NA,NA,0,1,Counsel for Uttar Pradesh State,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Chandramauli Kumar Prasad
+",02-08-2010,14-07-2014,0,NA,15-07-1949,Bihar,0,NA,NA,Patna University,1973,Bihar,0,NA,0,Patna,NA,NA,1,08-11-1994,1,Madhya Pradesh,Allahabad,20-03-2009,1,2,03-03-2008,Patna,20-03-2009,Allahabad,NA,NA,0,1,Assistant Advocate General,Civil,Constitutional,Criminal,Service matters,NA,NA,NA,NA,NA
+"Ranjana Prakash Desai
+",13-09-2011,29-10-2014,0,NA,30-10-1949,NA,1,NA,NA,Bombay University,1973,Bombay,0,NA,NA,DNA,NA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Chandramauli Kumar Prasad
+",02-08-2010,14-07-2014,0,NA,15-07-1949,Bihar,0,NA,NA,Patna University,1973,Bihar,0,NA,0,Patna,NA,NA,1,08-11-1994,1,Madhya Pradesh,Allahabad,20-03-2009,1,2,03-03-2008,Patna,20-03-2009,Allahabad,NA,NA,0,0,N,Y,Assistant Advocate General,Civil,Constitutional,Criminal,Service matters,NA,NA,NA
+"Ranjana Prakash Desai
+",13-09-2011,29-10-2014,0,NA,30-10-1949,NA,1,NA,NA,Bombay University,1973,Bombay,0,NA,NA,DNA,NA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,DNA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sudhanshu Jyoti Mukhopadhaya,13-09-2011,14-03-2015,0,NA,15-03-1950,NA,0,NA,NA,Magadh University,1979,Bihar,1,1993,0,Patna,NA,NA,1,08-11-1994,1,Jharkhand,Madras,31-08-2006,1,02-01-1900,26-08-2004,Jharkhand,2008/05/09*,Madras,09-12-2009,Gujarat,0,0,NA,Constitutional,Civil,Service,Criminal,NA,NA,NA,NA,NA
+Vikramajit Sen,24-12-2012,30-12-2015,0,NA,31-12-1950,NA,0,NA,NA,Delhi University,NA,Delhi,NA,NA,0,Delhi,NA,07-07-1999,1,30-10-2000,1,Karnataka,NA,NA,1,1899/12/31,12.09.2011,Karnataka,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+M.Y. Eqbal,24-12-2012,12-02-2016,0,NA,13-02-1951,NA,0,NA,NA,Ranchi University,1975,Bihar,0,NA,0,Patna,NA,NA,1,09-05-1996,1,Jharkhand,Madras,NA,1,1899/12/31,11.6.2010,Madras,NA,NA,NA,NA,0,1,Government Advocate,Civil,NA,NA,NA,NA,NA,NA,NA,NA
+Fakkir Mohamed Ibrahim Kalifulla,02-04-2012,22-07-2016,0,NA,23-07-1951,Tamil Nadu,0,NA,NA,NA,1975,Tamil Nadu,0,NA,0,Madras,NA,NA,1,02-03-2000,1,Jammu and Kashmir,NA,NA,1,1899/12/31,07-05-2011,Jammu and Kashmir,NA,NA,NA,NA,0,0,NA,Labour Laws,NA,NA,NA,NA,NA,NA,NA,NA
+Chockalingam Naggapan,19-09-2013,03-10-2016,0,NA,04-10-1951,Tamil Nadu,0,NA,NA,Madras Law College,NA,NA,NA,NA,0,Madras,NA,27-09-2000,1,20-09-2002,1,Orissa,NA,NA,1,1899/12/31,27-02-2013,Orissa,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+V. Gopala Gowda,24-12-2012,05-10-2016,0,NA,06-10-1951,Karnataka,0,NA,NA,"First Grade College, Chintamani",1975,Karnataka,0,NA,0,Karnataka,NA,11-06-1997,1,03-06-1999,1,Orissa,NA,NA,1,1899/12/31,25-03-2010,Orissa,NA,NA,NA,NA,0,0,NA,Constitutional matters,Writ Petitions,labour,service,civil,land reforms,matrimonial,NA,NA
+Shiva Kirti Singh,19-09-2013,11-11-2016,0,NA,13-11-1951,Bihar,0,NA,NA,Patna University,1977,Bihar,1,1990,0,Patna,NA,NA,1,29-12-1998,1,Allahabad,NA,NA,1,01-01-1900,01-05-2009,Patna,20-11-2012,Allahabad,NA,NA,0,0,NA,Civil,Criminal,Service,Constitutional,NA,NA,NA,NA,NA
+Anil R. Dave,30-04-2010,18-11-2016,0,NA,19-11-1951,Gujarat,0,NA,NA,NA,1976,Gujarat,0,NA,0,Gujarat,NA,18-09-1995,1,18-06-1997,NA,NA,NA,NA,1,01-01-1900,07-01-2008,Andhra Pradesh,11-02-2010,Bombay,NA,NA,0,1,State Solicitor,Labour Laws,Service matters,NA,NA,NA,NA,NA,NA,NA
+Pinaki Chandra Ghose,08-03-2013,27-05-2017,0,NA,28-05-1952,West Bengal,0,NA,NA,University of Calcutta,1976,West Bengal,0,NA,0,Calcutta,NA,NA,1,17-07-1997,1,Andhra Pradesh,NA,NA,1,1899/12/31,25-06-2012,Andhra Pradesh,NA,NA,NA,NA,0,0,NA,Civil,Commercial,Arbitration,Constitutional,NA,NA,NA,NA,NA
+Prafulla Chandra Pant,13-08-2014,29-08-2017,0,NA,30-08-1952,Uttarakhand,0,NA,NA,Lucknow University,1973,Uttar Pradesh,0,NA,0,Uttarakhand,NA,29-06-2004,1,19-02-2008,1,Meghalaya,NA,NA,1,1899/12/31,20-09-2013,Meghlaya,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Amitava Roy,27-02-2015,01-03-2018,0,NA,01-03-1953,West Bengal,0,NA,NA,Dibrugarh University,1976,Assam,0,NA,0,Gauhati,NA,NA,1,04-02-2002,1,Rajasthan,Orissa,06-08-2014,1,01-01-1900,02-01-2013,Rajasthan,06-08-2014,Orissa,NA,NA,0,0,NA,Civil,Criminal,Constitutional,Labour,Revenue,NA,NA,NA,NA
+Rajesh Kumar Agarwal,17-02-2014,04-05-2018,0,NA,05-05-1953,Uttar Pradesh,0,NA,NA,Allahabad University,1976,Uttar Pradesh,0,NA,0,Allahabad,NA,NA,1,05-02-1999,1,Madras,NA,NA,1,1899/12/31,07-02-2013,Madras,NA,NA,NA,NA,0,1,Standing Counsel of the Income Tax Department of the Government of India,Constitutional,Company,Service,Educational,Taxation,NA,NA,NA,NA
+Jasti Chelameswar,10-10-2011,22-06-2018,0,NA,23-06-1953,Andhra Pradesh,0,NA,NA,Andhra University,NA,Andhra Pradesh,1,1995,0,Andhra Pradesh,NA,23-06-1997,1,17-05-1999,1,Gauhati,Kerala,17-03-2010,1,01-01-1900,03-05-2007,Gauhati,17-03-2010,Kerala,NA,NA,0,1,Additional Advocate General,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Adarsh Kumar Goel,07-07-2014,06-07-2018,0,NA,07-07-1953,Haryana,0,NA,NA,Punjab University,1974,Punjab and Haryana,1,1999,0,Punjab and Haryana,NA,NA,0,02-07-2001,1,Gauhati,Orissa,12-10-2013,1,01-01-1900,20-12-2011,Gauhati,12-10-2013,Orissa,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Kurian Joseph,08-03-2013,29-11-2018,0,NA,30-11-1953,Kerala,0,NA,NA,"Kerala Law Academy Law College, Thiruvananthapuram",1979,Kerala,1,1996,0,Kerala,NA,NA,1,12-07-2000,1,Himachal Pradesh,NA,NA,1,01-01-1900,NA,Kerala,08-02-2010,Himachal Pradesh,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Madan Bhimrao Lokur,04-06-2012,30-12-2018,0,NA,31-12-1953,NA,0,NA,NA,Delhi University,1977,Delhi,1,1997,0,Delhi,NA,19-02-1999,1,05-07-1999,1,Gauhati,Andhra Pradesh,15-11-2011,1,01-01-1900,24-06-2010,Gauhati,15-11-2011,Andhra Pradesh,NA,NA,0,1,Central Government Standing Counsel,Civil,Criminal,Constitutional,Revenue,Service,NA,NA,NA,NA
+Arjan Kumar Sikri,12-04-2013,06-03-2019,0,NA,07-03-1954,NA,0,NA,NA,Delhi University,1977,Delhi,1,1997,0,Delhi,NA,NA,1,07-07-1999,0,NA,NA,NA,1,01-01-1900,10-10-2011,Delhi,23-09-2012,Punjab and Haryana,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Abhay Manohar Sapre,13-08-2014,27-08-2019,0,NA,28-08-1954,NA,0,NA,NA,NA,NA,Madhya Pradesh,0,NA,0,Madhya Pradesh,NA,25-10-1999,1,24-10-2001,1,Rajasthan,Chhattisgarh,23-04-2012,1,01-01-1900,23-03-2013,of Manipur,19-10-2013,Gauhati,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Deepak Gupta,17-02-2017,06-05-2020,0,NA,07-05-1955,NA,0,NA,NA,Delhi University,NA,Himachal Pradesh,NA,NA,0,Himachal Pradesh,NA,NA,1,04-10-2004,1,of Tripura,of Chattisgarh,16-05-2016,1,01-01-1900,23-03-2013,of Tripura,16-05-2016,of Chattisgarh,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+R. Bhanumati,13-08-2014,19-07-2020,0,NA,20-07-1955,NA,1,NA,NA,NA,1981,Tamil Nadu,NA,NA,0,Madras,NA,NA,1,03-04-2003,1,Jharkhand,NA,NA,1,1899/12/31,16-11-2013,Jharkhand,NA,NA,NA,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Arun Mishra,07-07-2014,02-09-2020,0,NA,03-09-1955,NA,0,NA,NA,NA,1978,Madhya Pradesh,0,NA,0,Madhya Pradesh,NA,NA,1,25-10-1999,1,Rajasthan,Calcutta,14-12-2012,1,01-01-1900,26-11-2010,Rajasthan,14-12-2012,Calcutta,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
