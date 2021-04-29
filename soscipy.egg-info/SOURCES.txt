@@ -5,6 +5,7 @@ soscipy/__init__.py
 soscipy.egg-info/PKG-INFO
 soscipy.egg-info/SOURCES.txt
 soscipy.egg-info/dependency_links.txt
+soscipy.egg-info/requires.txt
 soscipy.egg-info/top_level.txt
 soscipy/analyse/__init__.py
 soscipy/analyse/dat2csv.py
