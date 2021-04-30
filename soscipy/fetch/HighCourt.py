@@ -1,5 +1,9 @@
+def remove_none(L):
+    return [x for x in L if x is not None]
+
+
 class delhi_hc_search:
-    def __init__(self, case_type, case_year, case_no=None, headless=True, no_image=True, delay=1):
+    def __init__(self, case_type, case_year, case_no=None, headless=True, no_image=True, delay=1, ret=False):
         """
         The Delhi High court website provides three ways to look for case data:
         1. Using Case type
@@ -28,6 +32,11 @@ class delhi_hc_search:
         self.headless = headless
         self.no_image = no_image
         self.elements = {}
+
+        """
+        This is the meat of the scraper which tells the code where a specific piece of content can be found
+        on the webpage.
+        """
         self.elements['case_type'] = "//*[@id='InnerPageContent']/form[1]/select[1]"
         self.elements['case_type_elem'] = "//*[@id='InnerPageContent']/form[1]/select[1]"
         self.elements['case_no'] = "//*[@id='InnerPageContent']/form[1]/input[1]"
@@ -38,6 +47,7 @@ class delhi_hc_search:
 
         # Keeping a global name for case_type_select element
         self.case_type_select = None
+        self.case_type_options = None
         self.delay = delay
 
         # Assertions
@@ -46,15 +56,21 @@ class delhi_hc_search:
         assert (type(case_year) == int) & (len(str(case_year)) == 4), "Case no. must be an year in YYYY format"
 
     def _delay(self):
+        # Spleep function that delays page load. Usually to avoid overloading the server
         time.sleep(self.delay)
 
     def get_case_type_options(self):
+        # Fetches the case type options from the dropdown menue
         case_type_select = Select(self.driver.find_element_by_xpath(self.elements['case_type']))
         self.case_type_options = [(ind, opt.text) for ind, opt in enumerate(case_type_select.options)]
+        # print(self.case_type_options)
 
     def get_search_page(self):
+        # Calls the setup method to create a browser driver
         self.setup()
+        # Fetch the URL for the delhi highcourt
         self.driver.get(self.url)
+        # Fetch all the case type options from the
         self.get_case_type_options()
 
     def get_captcha_text(self):
@@ -99,23 +115,56 @@ class delhi_hc_search:
         # find search button and click on it
         search_but = self.driver.find_element_by_xpath(self.elements['search_but'])
         search_but.click()
-
-        # find the number of pages
-
-        # Parse the html page
-
-        # Append the data in a file
-
-        # Load the orders_judgements page
-
-        # Parse the orders_judgements
-
-        # Store the pdf files
-
-        # Go back to the search page -> loop
+        self.get_search_count()
 
     def start_scraping(self):
-        pass
+        self.get_search_results()
+        print(f'Total search results: {self.search_count}')
+        self.page_visited = []
+        self.page_not_visited = []
+        # seed page no visited
+        nav_links_curr_page = [element.get_attribute('href')
+                               for element in
+                               self.driver.find_elements_by_class_name('archivelink')]
+
+        for link in nav_links_curr_page:
+            self.page_not_visited.append(link)
+
+        self.valid_links = remove_none(list(set(self.page_not_visited) - set(self.page_visited)))
+        page_counter = 0
+        data = []
+        while self.valid_links:
+            self.driver.get(self.valid_links[0])
+            self.page_visited.append(self.valid_links[0])
+            current_page = self.driver.page_source
+            # Get case status data
+            data.append(self.parse_status_html(current_page))
+            # Get other navigation links
+            nav_links_curr_page = [element.get_attribute('href')
+                                   for element in
+                                   self.driver.find_elements_by_class_name('archivelink')]
+            for link in nav_links_curr_page:
+                if link not in self.page_visited:
+                    self.page_not_visited.append(link)
+            self.valid_links = remove_none(list(set(self.page_not_visited) - set(self.page_visited)))
+            page_counter += 1
+
+        self.scraped_data = pd.concat([pd.DataFrame(d).T for d in data])
+        if not ret:
+            return None
+        else:
+            return data
+
+        # Get all current valid links
+        # Page_counter = 0
+        # While links are valid:
+        # If page_counter !=0
+        # Fetch current page
+        # Move link from not visited to visited
+        # Process current page
+        # Process orders link for each application
+        # Save each order and judement as pdf
+        # Increment counter page_counter += 1
 
     def clean_text(self, text):
         text = text.replace(u'\xa0', u'').replace('\n', '')
@@ -132,6 +181,7 @@ class delhi_hc_search:
         li_odd = soup.find_all('li', {"class": "clearfix odd"})
         li_even = soup.find_all('li', {"class": "clearfix even"})
         li = self.merge_alternate_list(li_odd, li_even)
+        case_status_data = {}
         for i in range(len(li)):
             s0 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[0].get_text())
             sr_no = s0.replace(".", "")
@@ -150,20 +200,60 @@ class delhi_hc_search:
             except:
                 court_no, case_status2, judgement_date = "", "", ""
 
-            case_status_data[f'id_{i}'] = {}
-            case_status_data[f'id_{i}']['sr_no'] = sr_no
-            case_status_data[f'id_{i}']['diary_no'] = diary_no
-            case_status_data[f'id_{i}']['case_status1'] = case_status1
-            case_status_data[f'id_{i}']['petitioner'] = petitioner
-            case_status_data[f'id_{i}']['respondent'] = respondent
-            case_status_data[f'id_{i}']['advocate'] = advocate
-            case_status_data[f'id_{i}']['court_no'] = court_no
-            case_status_data[f'id_{i}']['case_status2'] = case_status2
-            case_status_data[f'id_{i}']['judgement_date'] = judgement_date
+            case_status_data[f'n_{i}'] = {}
+            case_status_data[f'n_{i}']['sr_no'] = sr_no
+            case_status_data[f'n_{i}']['diary_no'] = diary_no
+            case_status_data[f'n_{i}']['case_status1'] = case_status1
+            case_status_data[f'n_{i}']['petitioner'] = petitioner
+            case_status_data[f'n_{i}']['respondent'] = respondent
+            case_status_data[f'n_{i}']['advocate'] = advocate
+            case_status_data[f'n_{i}']['court_no'] = court_no
+            case_status_data[f'n_{i}']['case_status2'] = case_status2
+            case_status_data[f'n_{i}']['judgement_date'] = judgement_date
         return case_status_data
 
-    def parse_orders_judgements_html(self, url, diary_no):
-        pass
+    def get_order_page_links(self, html):
+        oj_details_elem = soup.find_all('button', {'class': 'button pull-right'})
+        oj_details = [str(elem.get('onclick')).replace(str(elem.get('onclick'))[-1], '').replace('location.href=',
+                                                                                                 'http://delhihighcourt.nic.in/')
+                      for elem in oj_details_elem]
+
+    def get_search_count(self):
+        self.search_count = self.driver.find_element_by_xpath("//*[@id='InnerPageContent']/span").text
+        self.search_count = int(self.search_count.split(":")[-1].lstrip().rstrip())
+
+    def parse_orders_page(self, html):
+        soup = bs(html, 'html5lib')
+        li = soup.find_all('li', {"class": "clearfix odd"})
+
+        orders = {}
+        for i in range(len(li)):
+            """
+            The Delhi High court website essentially has a a case status page and a button
+            which gives details of all the orders related to that case. This function
+            parses the page to provide structured data from the page. Variables include
+            serial no, date of order, corrigendum text
+
+            """
+            s0 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[0].get_text())
+            sr_no = s0.replace(".", "")
+
+            s1 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[1].get_text())
+            case_no = s1
+
+            s2 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[2].get_text())
+            date_of_order = s2
+
+            s3 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[3].get_text())
+            corrigendum = s3
+
+            orders[f'n_{i + 1}'] = {}
+            orders[f'n_{i + 1}']['sr_no'] = sr_no
+            orders[f'n_{i + 1}']['case_no'] = case_no
+            orders[f'n_{i + 1}']['date_of_order'] = date_of_order
+            orders[f'n_{i + 1}']['corrigendum'] = corrigendum
+
+        return orders
 
     def setup(self):
         options = Options()
@@ -189,7 +279,6 @@ class delhi_hc_search:
 
     def close(self):
         self.driver.quit()
-
 
 HC_list = [
     "Allahabad",
