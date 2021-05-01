@@ -1,3 +1,35 @@
+import unicodedata
+import urllib.request
+import re
+import time
+import time, re
+import os
+from bs4 import BeautifulSoup as bs
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support.ui import Select
+
+
+def slugify(value, allow_unicode=False):
+    """
+    Taken from https://github.com/django/django/blob/master/django/utils/text.py
+    Convert to ASCII if 'allow_unicode' is False. Convert spaces or repeated
+    dashes to single dashes. Remove characters that aren't alphanumerics,
+    underscores, or hyphens. Convert to lowercase. Also strip leading and
+    trailing whitespace, dashes, and underscores.
+    """
+    value = str(value)
+    if allow_unicode:
+        value = unicodedata.normalize('NFKC', value)
+    else:
+        value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
+    value = re.sub(r'[^\w\s-]', '', value.lower())
+    return re.sub(r'[-\s]+', '-', value).strip('-_')
+
+
 def remove_none(L):
     return [x for x in L if x is not None]
 
@@ -332,30 +364,6 @@ class delhi_hc_search:
         self.driver.quit()
 
 
-HC_list = [
-    "Allahabad",
-    "Andhra Pradesh",
-    "Bombay",
-    "Calcutta",
-    "Chhattisgarh",
-    "Delhi",
-    "Gauhati",
-    "Gujarat",
-    "Himachal Pradesh",
-    "Jammu & Kashmir",
-    "Jharkhand",
-    "Karnataka",
-    "Kerala",
-    "Madhya Pradesh",
-    "Madras",
-    "Manipur",
-    "Meghalaya",
-    "Orissa",
-    "Patna",
-    "Punjab & Haryana",
-    "Rajasthan",
-    "Sikkim",
-    "Telangana",
-    "Tripura",
-    "Uttarakhand"
-]
+if __name__ == '__main__':
+    delhi = delhi_hc_search(case_type=4, case_no=None, case_year=2020, headless=False, delay=0)
+    delhi.start_scraping()
