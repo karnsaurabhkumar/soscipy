@@ -1,5 +1,19 @@
+import time
+import re
+from bs4 import BeautifulSoup as bs
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support.ui import Select
+
+
 def remove_none(L):
     return [x for x in L if x is not None]
+
+
+def delhi_HC_scraper():
+    return delhi_hc_search()
 
 
 class delhi_hc_search:
