@@ -13,7 +13,7 @@ with open('requirements.txt') as f:
 setup(
     name='soscipy',
     packages=find_packages(),
-    version='0.0.30',
+    version='0.0.31',
     description='A python library to help do reproducible research in social sciences',
     author='Saurabh Karn',
     license='MIT',
