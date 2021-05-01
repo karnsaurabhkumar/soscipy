@@ -1,5 +1,9 @@
 import time
 import re
+import unicodedata
+import urllib.request
+
+import pandas as pd
 from bs4 import BeautifulSoup as bs
 
 from selenium import webdriver
@@ -12,8 +16,21 @@ def remove_none(L):
     return [x for x in L if x is not None]
 
 
-def delhi_HC_scraper():
-    return delhi_hc_search()
+def slugify(value, allow_unicode=False):
+    """
+    Taken from https://github.com/django/django/blob/master/django/utils/text.py
+    Convert to ASCII if 'allow_unicode' is False. Convert spaces or repeated
+    dashes to single dashes. Remove characters that aren't alphanumerics,
+    underscores, or hyphens. Convert to lowercase. Also strip leading and
+    trailing whitespace, dashes, and underscores.
+    """
+    value = str(value)
+    if allow_unicode:
+        value = unicodedata.normalize('NFKC', value)
+    else:
+        value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
+    value = re.sub(r'[^\w\s-]', '', value.lower())
+    return re.sub(r'[-\s]+', '-', value).strip('-_')
 
 
 class delhi_hc_search:
@@ -275,6 +292,7 @@ class delhi_hc_search:
         return case_status_data
 
     def get_order_page_links(self, html):
+        soup = bs(html, 'html.parser')
         oj_details_elem = soup.find_all('button', {'class': 'button pull-right'})
         oj_details = [str(elem.get('onclick')).replace(str(elem.get('onclick'))[-1], '').replace('location.href=',
                                                                                                  'http://delhihighcourt.nic.in/')
@@ -373,3 +391,6 @@ HC_list = [
     "Tripura",
     "Uttarakhand"
 ]
+
+def delhi_HC_scraper():
+    return delhi_hc_search()

@@ -16,10 +16,6 @@ def remove_none(L):
     return [x for x in L if x is not None]
 
 
-def delhi_HC_scraper():
-    return delhi_hc_search()
-
-
 def slugify(value, allow_unicode=False):
     """
     Taken from https://github.com/django/django/blob/master/django/utils/text.py
@@ -35,6 +31,7 @@ def slugify(value, allow_unicode=False):
         value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
     value = re.sub(r'[^\w\s-]', '', value.lower())
     return re.sub(r'[-\s]+', '-', value).strip('-_')
+
 
 class delhi_hc_search:
     def __init__(self, case_type, case_year, case_no=None, headless=True, no_image=True, delay=1, ret=False):
@@ -394,3 +391,6 @@ HC_list = [
     "Tripura",
     "Uttarakhand"
 ]
+
+def delhi_HC_scraper():
+    return delhi_hc_search()
