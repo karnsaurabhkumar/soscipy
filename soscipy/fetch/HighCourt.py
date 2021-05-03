@@ -34,7 +34,7 @@ def slugify(value, allow_unicode=False):
 
 
 class delhi_hc_search:
-    def __init__(self, case_type, case_year, case_no=None, headless=True, no_image=True, delay=1, ret=False):
+    def __init__(self, case_type, case_year, case_no=None, enable_download = False, scan_limit = 5, delay=1, ret=False, headless=True, no_image=True):
         """
         The Delhi High court website provides three ways to look for case data:
         1. Using Case type
@@ -82,6 +82,8 @@ class delhi_hc_search:
         self.delay = delay
         self.ret = ret
         self.order_subpage_data = []
+        self.enable_download = enable_download
+        self.scan_limit = scan_limit
 
         # Assertions
         if self.case_no:
@@ -166,8 +168,9 @@ class delhi_hc_search:
         self.valid_links = remove_none(list(set(self.page_not_visited) - set(self.page_visited)))
         page_counter = 0
         data = []
-        while self.valid_links:
-            print(f'No. of pages_visited: {page_counter}', end='\r')
+
+        while self.valid_links and (page_counter <= self.scan_limit):
+            print(f'No. of pages_visited: {page_counter}', flush=True)
             self.driver.get(self.valid_links[0])
             self.page_visited.append(self.valid_links[0])
             current_page = self.driver.page_source
@@ -176,13 +179,18 @@ class delhi_hc_search:
             data.append(dat)
             soup = bs(current_page, 'html.parser')
             oj_details_elem = soup.find_all('button', {'class': 'button pull-right'})
-            self.oj_details = [
+            try:
+                self.oj_details = [
                 str(elem.get('onclick')).replace(str(elem.get('onclick'))[-1], '').replace('location.href=',
                                                                                            'http://delhihighcourt.nic.in/')
                 for elem in oj_details_elem]
 
+            except:
+                pass
+
             main_window = self.driver.current_window_handle
 
+            # Order and Judgement link iteration happens here
             for i, oj in enumerate(self.oj_details):
                 order_prefix = slugify(
                     dat['n_{}'.format(i)]['diary_no'])  # This will later be used to name all judgement files
@@ -197,24 +205,30 @@ class delhi_hc_search:
                 order_subpage = self.driver.page_source
                 soup = bs(order_subpage, 'html.parser')
                 self.order_subpage_data.append(self.parse_orders_page(order_subpage))
-                oj_subp_elem = soup.find_all('button', {'class': 'LongCaseNoBtn'})
-                oj_subp_details = [str(elem.get('onclick')) for elem in oj_subp_elem]
 
-                # Clean string and create a list
-                for string in oj_subp_details:
-                    string = string.replace('location.href=', '')
-                    if string.startswith('\'') and string.endswith('\''):
-                        string = string[1:-1]
-                    order_links.append(string)
+                # Incase the order and judgement isn't present
+                try:
+                    oj_subp_elem = soup.find_all('button', {'class': 'LongCaseNoBtn'})
+                    oj_subp_details = [str(elem.get('onclick')) for elem in oj_subp_elem]
 
-                # get link to pdf_pages
-                for order in order_links:
-                    pdf_links.append(order)
+                    # Clean string and create a list
+                    for string in oj_subp_details:
+                        string = string.replace('location.href=', '')
+                        if string.startswith('\'') and string.endswith('\''):
+                            string = string[1:-1]
+                        order_links.append(string)
 
-                self.download_pdfs(pdf_links, order_prefix, oj_window, main_window)
+                    # get link to pdf_pages
+                    for order in order_links:
+                        pdf_links.append(order)
 
-                self.driver.close()
-                self.driver.switch_to.window(main_window)
+                    if self.enable_download:
+                        self.download_pdfs(pdf_links, order_prefix, oj_window, main_window)
+
+                    self.driver.close()
+                    self.driver.switch_to.window(main_window)
+                except:
+                    pass
 
             nav_links_curr_page = [element.get_attribute('href')
                                    for element in
@@ -261,35 +275,38 @@ class delhi_hc_search:
         li_even = soup.find_all('li', {"class": "clearfix even"})
         li = self.merge_alternate_list(li_odd, li_even)
         case_status_data = {}
-        for i in range(len(li)):
-            s0 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[0].get_text())
-            sr_no = s0.replace(".", "")
+        try:
+            for i in range(len(li)):
+                s0 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[0].get_text())
+                sr_no = s0.replace(".", "")
 
-            s1 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[1].get_text())
-            case_status1 = re.findall(r'\[.*?\]', s1)[0]
-            diary_no = s1.split(case_status1)[0].replace('\t', '')
+                s1 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[1].get_text())
+                case_status1 = re.findall(r'\[.*?\]', s1)[0]
+                diary_no = s1.split(case_status1)[0].replace('\t', '')
 
-            s2 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[2].get_text())
-            advocate = s2.split('Advocate :')[-1]
-            petitioner, respondent = s2.split('Advocate :')[0].split('Vs.')
+                s2 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[2].get_text())
+                advocate = s2.split('Advocate :')[-1]
+                petitioner, respondent = s2.split('Advocate :')[0].split('Vs.')
 
-            s3 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[3].get_text())
-            try:
-                court_no, case_status2, judgement_date = re.findall('^\D*(\d)\s(\D*)\s(\d+/\d+/\d+)', s3)[0]
-            except:
-                court_no, case_status2, judgement_date = "", "", ""
+                s3 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[3].get_text())
+                try:
+                    court_no, case_status2, judgement_date = re.findall('^\D*(\d)\s(\D*)\s(\d+/\d+/\d+)', s3)[0]
+                except:
+                    court_no, case_status2, judgement_date = "", "", ""
 
-            case_status_data[f'n_{i}'] = {}
-            case_status_data[f'n_{i}']['sr_no'] = sr_no
-            case_status_data[f'n_{i}']['diary_no'] = diary_no
-            case_status_data[f'n_{i}']['case_status1'] = case_status1
-            case_status_data[f'n_{i}']['petitioner'] = petitioner
-            case_status_data[f'n_{i}']['respondent'] = respondent
-            case_status_data[f'n_{i}']['advocate'] = advocate
-            case_status_data[f'n_{i}']['court_no'] = court_no
-            case_status_data[f'n_{i}']['case_status2'] = case_status2
-            case_status_data[f'n_{i}']['judgement_date'] = judgement_date
-        return case_status_data
+                case_status_data[f'n_{i}'] = {}
+                case_status_data[f'n_{i}']['sr_no'] = sr_no
+                case_status_data[f'n_{i}']['diary_no'] = diary_no
+                case_status_data[f'n_{i}']['case_status1'] = case_status1
+                case_status_data[f'n_{i}']['petitioner'] = petitioner
+                case_status_data[f'n_{i}']['respondent'] = respondent
+                case_status_data[f'n_{i}']['advocate'] = advocate
+                case_status_data[f'n_{i}']['court_no'] = court_no
+                case_status_data[f'n_{i}']['case_status2'] = case_status2
+                case_status_data[f'n_{i}']['judgement_date'] = judgement_date
+            return case_status_data
+        except IndexError:
+            return None
 
     def get_order_page_links(self, html):
         soup = bs(html, 'html.parser')
@@ -307,32 +324,37 @@ class delhi_hc_search:
         li = soup.find_all('li', {"class": "clearfix odd"})
 
         orders = {}
-        for i in range(len(li)):
-            """
-            The Delhi High court website essentially has a a case status page and a button
-            which gives details of all the orders related to that case. This function
-            parses the page to provide structured data from the page. Variables include
-            serial no, date of order, corrigendum text
+        try:
+            for i in range(len(li)):
+                """
+                The Delhi High court website essentially has a a case status page and a button
+                which gives details of all the orders related to that case. This function
+                parses the page to provide structured data from the page. Variables include
+                serial no, date of order, corrigendum text
+    
+                """
+                s0 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[0].get_text())
+                sr_no = s0.replace(".", "")
 
-            """
-            s0 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[0].get_text())
-            sr_no = s0.replace(".", "")
+                s1 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[1].get_text())
+                case_no = s1
 
-            s1 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[1].get_text())
-            case_no = s1
+                s2 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[2].get_text())
+                date_of_order = s2
 
-            s2 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[2].get_text())
-            date_of_order = s2
+                s3 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[3].get_text())
+                corrigendum = s3
 
-            s3 = self.clean_text(li[i].select('span', attrs={'class': re.compile('^title*')})[3].get_text())
-            corrigendum = s3
+                orders[f'n_{i + 1}'] = {}
+                orders[f'n_{i + 1}']['sr_no'] = sr_no
+                orders[f'n_{i + 1}']['case_no'] = case_no
+                orders[f'n_{i + 1}']['date_of_order'] = date_of_order
+                orders[f'n_{i + 1}']['corrigendum'] = corrigendum
+            return orders
 
-            orders[f'n_{i + 1}'] = {}
-            orders[f'n_{i + 1}']['sr_no'] = sr_no
-            orders[f'n_{i + 1}']['case_no'] = case_no
-            orders[f'n_{i + 1}']['date_of_order'] = date_of_order
-            orders[f'n_{i + 1}']['corrigendum'] = corrigendum
-        return orders
+        except:
+            return None
+
 
     def setup(self):
         options = Options()
@@ -391,6 +413,3 @@ HC_list = [
     "Tripura",
     "Uttarakhand"
 ]
-
-def delhi_HC_scraper():
-    return delhi_hc_search()
